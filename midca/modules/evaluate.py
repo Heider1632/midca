@@ -89,7 +89,7 @@ class SimpleEval(base.BaseModule):
             for goal in goals:
                 # evaluate profe voy a almorzar le parece si lo hablamos despues tengo que pensar en lo que se debe hacer para que actualice los stado ok no te preocupes
                 #goal time is called to recive the information the current goal
-                goaltime.StartEval(str(goal), "0", ctime.time() , "archived")
+                goaltime.StartEval(str(goal), "0", ctime.time() , "achieved")
                 goalGraph.remove(goal)
                 if trace: trace.add_data("REMOVED GOAL", goal)
                 goals_changed = True
