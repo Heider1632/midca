@@ -1,0 +1,78 @@
+.004000 - Goal Graph initialized.
+
+.006000 - [cognitive] Initializing Simulate module 1 FireReset...done.
+
+.006000 - [cognitive] Initializing Simulate module 2 MidcaActionSimulator...done.
+
+.007000 - [cognitive] Initializing Simulate module 3 ArsonSimulator...done.
+
+.007000 - [cognitive] Initializing Simulate module 4 ASCIIWorldViewer...done.
+
+.007000 - [cognitive] Initializing Perceive module 1 PerfectObserver...done.
+
+.012000 - [cognitive] Initializing Interpret module 1 ADistanceAnomalyNoter...done.
+
+.012000 - [cognitive] Initializing Interpret module 2 TFStack...done.
+
+.013000 - [cognitive] Initializing Interpret module 3 TFFire...done.
+
+.013000 - [cognitive] Initializing Interpret module 4 ReactiveApprehend...done.
+
+.014000 - [cognitive] Initializing Eval module 1 SimpleEval...done.
+
+.014000 - [cognitive] Initializing Eval module 2 Scorer...done.
+
+.015000 - [cognitive] Initializing Intend module 1 SimpleIntend...done.
+
+.016000 - [cognitive] Initializing Plan module 1 PyHopPlanner...done.
+
+.016000 - [cognitive] Initializing Act module 1 SimpleAct...done.
+
+.017000 - 
+MIDCA is starting. Please enter commands, or '?' + enter for help. Pressing enter with no input will advance the simulation by one phase.
+
+.450000 - Starting cycle 0
+
+.451000 - ****** Starting Simulate Phase ******
+
+.451000 - Simulator: no actions selected yet by MIDCA.
+
+.454000 -           / \                
+         /   \               
+        /  D_ \              
+        -------              
+       |  B_  |              
+        -------              
+        -------        -------
+       |  A_  |       |  C_  |
+        -------        -------
+------------------------------------------
+
+.760000 - ****** Starting Perceive Phase ******
+
+.761000 - World observed.
+
+1.051000 - ****** Starting Interpret Phase ******
+
+1.126000 - No anomaly detected.
+
+1.143000 - TF-Tree goal generated: Goal(C_, B_, predicate: on)
+
+1.327000 - ****** Starting Eval Phase ******
+
+1.359000 - No current goals. Skipping eval
+
+1.858000 - ****** Starting Intend Phase ******
+
+1.860000 - Selecting goal(s): Goal(C_, B_, predicate: on) <midca.modules.goaltime.Goaltime instance at 0x06415260>
+
+1.862000 - primera vez
+
+1.863000 - 1
+
+1.869000 - [{'state': 'current', 'startime': 1562182952.515, 'id': 'Goal(C_, B_, predicate: on)', 'endtime': '0', 'name': <midca.goals.Goal instance at 0x064072D8>}]
+
+18.954000 - command not understood
+
+3:33.260000 - MIDCA is quitting.
+

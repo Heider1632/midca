@@ -1,0 +1,68 @@
+.094000 - Goal Graph initialized.
+
+.097000 - [cognitive] Initializing Simulate module 1 FireReset...done.
+
+.099000 - [cognitive] Initializing Simulate module 2 MidcaActionSimulator...done.
+
+.101000 - [cognitive] Initializing Simulate module 3 ArsonSimulator...done.
+
+.106000 - [cognitive] Initializing Simulate module 4 ASCIIWorldViewer...done.
+
+.108000 - [cognitive] Initializing Perceive module 1 PerfectObserver...done.
+
+.114000 - [cognitive] Initializing Interpret module 1 ADistanceAnomalyNoter...done.
+
+.117000 - [cognitive] Initializing Interpret module 2 TFStack...done.
+
+.120000 - [cognitive] Initializing Interpret module 3 TFFire...done.
+
+.129000 - [cognitive] Initializing Interpret module 4 ReactiveApprehend...done.
+
+.136000 - [cognitive] Initializing Eval module 1 SimpleEval...done.
+
+.143000 - [cognitive] Initializing Eval module 2 Scorer...done.
+
+.145000 - [cognitive] Initializing Intend module 1 SimpleIntend...done.
+
+.148000 - [cognitive] Initializing Plan module 1 PyHopPlanner...done.
+
+.156000 - [cognitive] Initializing Act module 1 SimpleAct...done.
+
+.159000 - 
+MIDCA is starting. Please enter commands, or '?' + enter for help. Pressing enter with no input will advance the simulation by one phase.
+
+4.698000 - Starting cycle 0
+
+4.702000 - ****** Starting Simulate Phase ******
+
+4.706000 - Simulator: no actions selected yet by MIDCA.
+
+4.709000 -           / \                
+         /   \               
+        /  D_ \              
+        -------              
+       |  B_  |              
+        -------              
+        -------        -------
+       |  A_  |       |  C_  |
+        -------        -------
+------------------------------------------
+
+5.103000 - ****** Starting Perceive Phase ******
+
+5.105000 - World observed.
+
+5.488000 - ****** Starting Interpret Phase ******
+
+5.506000 - No anomaly detected.
+
+5.514000 - TF-Tree goal generated: Goal(C_, B_, predicate: on)
+
+6.392000 - ****** Starting Eval Phase ******
+
+6.404000 - No current goals. Skipping eval
+
+6.944000 - ****** Starting Intend Phase ******
+
+6.945000 - <midca.trace.CogTrace instance at 0x06AFE080>
+

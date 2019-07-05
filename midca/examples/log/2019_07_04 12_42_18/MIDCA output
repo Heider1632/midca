@@ -1,0 +1,640 @@
+.004000 - Goal Graph initialized.
+
+.006000 - [cognitive] Initializing Simulate module 1 FireReset...done.
+
+.006000 - [cognitive] Initializing Simulate module 2 MidcaActionSimulator...done.
+
+.007000 - [cognitive] Initializing Simulate module 3 ArsonSimulator...done.
+
+.007000 - [cognitive] Initializing Simulate module 4 ASCIIWorldViewer...done.
+
+.008000 - [cognitive] Initializing Perceive module 1 PerfectObserver...done.
+
+.012000 - [cognitive] Initializing Interpret module 1 ADistanceAnomalyNoter...done.
+
+.012000 - [cognitive] Initializing Interpret module 2 TFStack...done.
+
+.013000 - [cognitive] Initializing Interpret module 3 TFFire...done.
+
+.013000 - [cognitive] Initializing Interpret module 4 ReactiveApprehend...done.
+
+.013000 - [cognitive] Initializing Eval module 1 SimpleEval...done.
+
+.014000 - [cognitive] Initializing Eval module 2 Scorer...done.
+
+.014000 - [cognitive] Initializing Intend module 1 SimpleIntend...done.
+
+.015000 - [cognitive] Initializing Plan module 1 PyHopPlanner...done.
+
+.015000 - [cognitive] Initializing Act module 1 SimpleAct...done.
+
+.016000 - 
+MIDCA is starting. Please enter commands, or '?' + enter for help. Pressing enter with no input will advance the simulation by one phase.
+
+.579000 - Starting cycle 0
+
+.583000 - ****** Starting Simulate Phase ******
+
+.584000 - Simulator: no actions selected yet by MIDCA.
+
+.588000 -           / \                
+         /   \               
+        /  D_ \              
+        -------              
+       |  B_  |              
+        -------              
+        -------        -------
+       |  A_  |       |  C_  |
+        -------        -------
+------------------------------------------
+
+.983000 - ****** Starting Perceive Phase ******
+
+.984000 - World observed.
+
+1.291000 - ****** Starting Interpret Phase ******
+
+1.308000 - No anomaly detected.
+
+1.315000 - TF-Tree goal generated: Goal(C_, B_, predicate: on)
+
+1.588000 - ****** Starting Eval Phase ******
+
+1.596000 - No current goals. Skipping eval
+
+1.910000 - ****** Starting Intend Phase ******
+
+1.924000 - Selecting goal(s): Goal(C_, B_, predicate: on)
+
+2.257000 - ****** Starting Plan Phase ******
+
+2.265000 - Planning...
+
+2.267000 - hand
+
+2.268000 - True
+
+2.270000 - Planning complete.
+
+2.271000 - Plan: 
+
+2.272000 -   unstack(D_, B_)
+
+2.275000 -   putdown(D_)
+
+2.276000 -   pickup(C_)
+
+2.277000 -   stack(C_, B_)
+
+2.597000 - ****** Starting Act Phase ******
+
+2.609000 - Selected action unstack(D_, B_) from plan:
+
+2.610000 - [unstack(D_, B_)] putdown(D_) pickup(C_) stack(C_, B_)
+
+2.926000 - Starting cycle 1
+
+2.927000 - ****** Starting Simulate Phase ******
+
+2.929000 - simulating MIDCA action: unstack(D_, B_)
+
+2.932000 -                             
+                            
+                            
+        -------              
+       |  B_  |              
+        -------              
+        -------        -------
+       |  A_  |       |  C_  |
+        -------        -------
+------------------------------------------
+
+3.921000 - ****** Starting Perceive Phase ******
+
+3.923000 - World observed.
+
+4.372000 - ****** Starting Interpret Phase ******
+
+4.390000 - No anomaly detected.
+
+4.392000 - MIDCA already has a block stacking goal. Skipping TF-Tree stacking goal generation
+
+4.687000 - ****** Starting Eval Phase ******
+
+4.695000 - Not all goals achieved; Goal(C_, B_, predicate: on) is not true.
+
+8.821000 - ****** Starting Intend Phase ******
+
+8.823000 - No goals selected.
+
+9.191000 - ****** Starting Plan Phase ******
+
+9.201000 - Old plan retrieved. Checking validity... valid.
+
+9.204000 - checking to see if all goals are achieved... yes
+
+9.529000 - ****** Starting Act Phase ******
+
+9.541000 - Selected action putdown(D_) from plan:
+
+9.542000 - unstack(D_, B_) [putdown(D_)] pickup(C_) stack(C_, B_)
+
+9.849000 - Starting cycle 2
+
+9.856000 - ****** Starting Simulate Phase ******
+
+9.859000 - simulating MIDCA action: putdown(D_)
+
+9.865000 -         -------                            
+       |  B_  |                            
+        -------                            
+        -------        -------          / \  
+       |  A_  |       |  C_  |         /   \ 
+        -------        -------        /  D_ \
+--------------------------------------------------------
+
+10.193000 - ****** Starting Perceive Phase ******
+
+10.194000 - World observed.
+
+10.479000 - ****** Starting Interpret Phase ******
+
+10.498000 - No anomaly detected.
+
+10.501000 - MIDCA already has a block stacking goal. Skipping TF-Tree stacking goal generation
+
+10.815000 - ****** Starting Eval Phase ******
+
+10.824000 - Not all goals achieved; Goal(C_, B_, predicate: on) is not true.
+
+11.175000 - ****** Starting Intend Phase ******
+
+11.177000 - No goals selected.
+
+11.547000 - ****** Starting Plan Phase ******
+
+11.559000 - Old plan retrieved. Checking validity... valid.
+
+11.588000 - checking to see if all goals are achieved... yes
+
+12.020000 - ****** Starting Act Phase ******
+
+12.031000 - Selected action pickup(C_) from plan:
+
+12.032000 - unstack(D_, B_) putdown(D_) [pickup(C_)] stack(C_, B_)
+
+12.430000 - Starting cycle 3
+
+12.436000 - ****** Starting Simulate Phase ******
+
+12.439000 - simulating MIDCA action: pickup(C_)
+
+12.442000 -                             
+                            
+                            
+        -------              
+       |  B_  |              
+        -------              
+        -------          / \  
+       |  A_  |         /   \ 
+        -------        /  D_ \
+------------------------------------------
+
+12.940000 - ****** Starting Perceive Phase ******
+
+12.942000 - World observed.
+
+13.321000 - ****** Starting Interpret Phase ******
+
+13.335000 - No anomaly detected.
+
+13.338000 - MIDCA already has a block stacking goal. Skipping TF-Tree stacking goal generation
+
+13.731000 - ****** Starting Eval Phase ******
+
+13.742000 - Not all goals achieved; Goal(C_, B_, predicate: on) is not true.
+
+14.107000 - ****** Starting Intend Phase ******
+
+14.108000 - No goals selected.
+
+14.457000 - ****** Starting Plan Phase ******
+
+14.468000 - Old plan retrieved. Checking validity... valid.
+
+14.470000 - checking to see if all goals are achieved... yes
+
+14.808000 - ****** Starting Act Phase ******
+
+14.817000 - Selected action stack(C_, B_) from plan:
+
+14.819000 - unstack(D_, B_) putdown(D_) pickup(C_) [stack(C_, B_)]
+
+15.181000 - Starting cycle 4
+
+15.185000 - ****** Starting Simulate Phase ******
+
+15.189000 - simulating MIDCA action: stack(C_, B_)
+
+15.192000 -         -------              
+       |  C_  |              
+        -------              
+        -------              
+       |  B_  |              
+        -------              
+        -------          / \  
+       |  A_  |         /   \ 
+        -------        /  D_ \
+------------------------------------------
+
+15.605000 - ****** Starting Perceive Phase ******
+
+15.607000 - World observed.
+
+15.931000 - ****** Starting Interpret Phase ******
+
+15.947000 - No anomaly detected.
+
+15.950000 - MIDCA already has a block stacking goal. Skipping TF-Tree stacking goal generation
+
+16.287000 - ****** Starting Eval Phase ******
+
+16.295000 - All current goals achieved. Removing them from goal graph
+
+16.325000 - removing 1 plans that no longer apply.
+
+16.677000 - ****** Starting Intend Phase ******
+
+16.678000 - No Goals in Goal graph. Intend will do nothing.
+
+21.406000 - ****** Starting Plan Phase ******
+
+21.414000 - No goals received by planner. Skipping planning.
+
+21.693000 - ****** Starting Act Phase ******
+
+21.695000 - No valid plan found that achieves any current goals.
+
+21.703000 - MIDCA will not select an action this cycle.
+
+22.008000 - Starting cycle 5
+
+22.010000 - ****** Starting Simulate Phase ******
+
+22.012000 - No actions selected this cycle by MIDCA.
+
+22.015000 -         -------              
+       |  C_  |              
+        -------              
+        -------              
+       |  B_  |              
+        -------              
+        -------          / \  
+       |  A_  |         /   \ 
+        -------        /  D_ \
+------------------------------------------
+
+22.279000 - ****** Starting Perceive Phase ******
+
+22.280000 - World observed.
+
+22.561000 - ****** Starting Interpret Phase ******
+
+22.607000 - No anomaly detected.
+
+22.610000 - TF-Tree goal generated: Goal(D_, C_, predicate: on)
+
+22.845000 - ****** Starting Eval Phase ******
+
+22.855000 - No current goals. Skipping eval
+
+23.117000 - ****** Starting Intend Phase ******
+
+23.120000 - Selecting goal(s): Goal(D_, C_, predicate: on){'endtime': 1562262154.657, 'name': 'Goal(C_, B_, predicate: on)', 'state': 'archived', 'duration': -14.384000062942505, 'startime': 1562262140.273, 'id': 0}
+
+25.508000 - ****** Starting Plan Phase ******
+
+25.521000 - Planning...
+
+25.524000 - hand
+
+25.525000 - True
+
+25.526000 - Planning complete.
+
+25.527000 - Plan: 
+
+25.527000 -   pickup(D_)
+
+25.528000 -   stack(D_, C_)
+
+25.847000 - ****** Starting Act Phase ******
+
+25.859000 - Selected action pickup(D_) from plan:
+
+25.860000 - [pickup(D_)] stack(D_, C_)
+
+26.155000 - Starting cycle 6
+
+26.157000 - ****** Starting Simulate Phase ******
+
+26.159000 - simulating MIDCA action: pickup(D_)
+
+26.162000 -               
+              
+              
+        -------
+       |  C_  |
+        -------
+        -------
+       |  B_  |
+        -------
+        -------
+       |  A_  |
+        -------
+----------------------------
+
+26.506000 - ****** Starting Perceive Phase ******
+
+26.507000 - World observed.
+
+26.829000 - ****** Starting Interpret Phase ******
+
+26.843000 - No anomaly detected.
+
+26.846000 - MIDCA already has a block stacking goal. Skipping TF-Tree stacking goal generation
+
+27.150000 - ****** Starting Eval Phase ******
+
+27.160000 - Not all goals achieved; Goal(D_, C_, predicate: on) is not true.
+
+27.471000 - ****** Starting Intend Phase ******
+
+27.472000 - No goals selected.
+
+27.791000 - ****** Starting Plan Phase ******
+
+27.800000 - Old plan retrieved. Checking validity... valid.
+
+27.803000 - checking to see if all goals are achieved... yes
+
+28.172000 - ****** Starting Act Phase ******
+
+28.183000 - Selected action stack(D_, C_) from plan:
+
+28.185000 - pickup(D_) [stack(D_, C_)]
+
+28.613000 - Starting cycle 7
+
+28.618000 - ****** Starting Simulate Phase ******
+
+28.620000 - simulating MIDCA action: stack(D_, C_)
+
+28.623000 -           / \  
+         /   \ 
+        /  D_ \
+        -------
+       |  C_  |
+        -------
+        -------
+       |  B_  |
+        -------
+        -------
+       |  A_  |
+        -------
+----------------------------
+
+29.059000 - ****** Starting Perceive Phase ******
+
+29.060000 - World observed.
+
+29.459000 - ****** Starting Interpret Phase ******
+
+29.478000 - No anomaly detected.
+
+29.480000 - MIDCA already has a block stacking goal. Skipping TF-Tree stacking goal generation
+
+29.976000 - ****** Starting Eval Phase ******
+
+29.985000 - All current goals achieved. Removing them from goal graph
+
+29.987000 - error no se encontro goalid asociado
+
+29.999000 - removing 1 plans that no longer apply.
+
+1:04.052000 - ****** Starting Intend Phase ******
+
+1:04.054000 - No Goals in Goal graph. Intend will do nothing.
+
+1:05.123000 - ****** Starting Plan Phase ******
+
+1:05.132000 - No goals received by planner. Skipping planning.
+
+1:06.332000 - ****** Starting Act Phase ******
+
+1:06.334000 - No valid plan found that achieves any current goals.
+
+1:06.342000 - MIDCA will not select an action this cycle.
+
+1:07.361000 - Starting cycle 8
+
+1:07.364000 - ****** Starting Simulate Phase ******
+
+1:07.367000 - No actions selected this cycle by MIDCA.
+
+1:07.370000 -           / \  
+         /   \ 
+        /  D_ \
+        -------
+       |  C_  |
+        -------
+        -------
+       |  B_  |
+        -------
+        -------
+       |  A_  |
+        -------
+----------------------------
+
+1:08.403000 - ****** Starting Perceive Phase ******
+
+1:08.404000 - World observed.
+
+1:08.978000 - ****** Starting Interpret Phase ******
+
+1:08.997000 - No anomaly detected.
+
+1:09.003000 - TF-Tree goal generated: Goal(D_, B_, predicate: on)
+
+1:09.987000 - ****** Starting Eval Phase ******
+
+1:09.995000 - No current goals. Skipping eval
+
+1:12.681000 - ****** Starting Intend Phase ******
+
+1:12.684000 - Selecting goal(s): Goal(D_, B_, predicate: on){'endtime': 1562262168.348, 'name': 'Goal(D_, C_, predicate: on)', 'state': 'archived', 'duration': -6.867000102996826, 'startime': 1562262161.481, 'id': 1}
+
+1:19.008000 - ****** Starting Plan Phase ******
+
+1:19.020000 - Planning...
+
+1:19.024000 - hand
+
+1:19.025000 - True
+
+1:19.025000 - Planning complete.
+
+1:19.028000 - Plan: 
+
+1:19.029000 -   unstack(D_, C_)
+
+1:19.030000 -   putdown(D_)
+
+1:19.033000 -   unstack(C_, B_)
+
+1:19.034000 -   putdown(C_)
+
+1:19.035000 -   pickup(D_)
+
+1:19.038000 -   stack(D_, B_)
+
+1:19.654000 - ****** Starting Act Phase ******
+
+1:19.665000 - Selected action unstack(D_, C_) from plan:
+
+1:20.323000 - Starting cycle 9
+
+1:20.326000 - ****** Starting Simulate Phase ******
+
+1:20.329000 - simulating MIDCA action: unstack(D_, C_)
+
+1:20.334000 -               
+              
+              
+        -------
+       |  C_  |
+        -------
+        -------
+       |  B_  |
+        -------
+        -------
+       |  A_  |
+        -------
+----------------------------
+
+1:20.812000 - ****** Starting Perceive Phase ******
+
+1:20.815000 - World observed.
+
+1:21.308000 - ****** Starting Interpret Phase ******
+
+1:21.324000 - No anomaly detected.
+
+1:21.328000 - MIDCA already has a block stacking goal. Skipping TF-Tree stacking goal generation
+
+1:21.995000 - ****** Starting Eval Phase ******
+
+1:22.005000 - Not all goals achieved; Goal(D_, B_, predicate: on) is not true.
+
+1:23.545000 - ****** Starting Intend Phase ******
+
+1:23.546000 - No goals selected.
+
+1:29.174000 - ****** Starting Plan Phase ******
+
+1:29.185000 - Old plan retrieved. Checking validity... valid.
+
+1:29.189000 - checking to see if all goals are achieved... yes
+
+1:29.936000 - ****** Starting Act Phase ******
+
+1:29.950000 - Selected action putdown(D_) from plan:
+
+1:30.904000 - Starting cycle 10
+
+1:30.906000 - ****** Starting Simulate Phase ******
+
+1:30.909000 - simulating MIDCA action: putdown(D_)
+
+1:30.912000 -         -------              
+       |  C_  |              
+        -------              
+        -------              
+       |  B_  |              
+        -------              
+        -------          / \  
+       |  A_  |         /   \ 
+        -------        /  D_ \
+------------------------------------------
+
+1:31.601000 - ****** Starting Perceive Phase ******
+
+1:31.603000 - World observed.
+
+1:32.406000 - ****** Starting Interpret Phase ******
+
+1:32.424000 - No anomaly detected.
+
+1:32.426000 - MIDCA already has a block stacking goal. Skipping TF-Tree stacking goal generation
+
+1:33.534000 - ****** Starting Eval Phase ******
+
+1:33.544000 - Not all goals achieved; Goal(D_, B_, predicate: on) is not true.
+
+1:34.953000 - ****** Starting Intend Phase ******
+
+1:34.954000 - No goals selected.
+
+1:35.893000 - ****** Starting Plan Phase ******
+
+1:35.908000 - Old plan retrieved. Checking validity... valid.
+
+1:35.912000 - checking to see if all goals are achieved... yes
+
+1:37.135000 - ****** Starting Act Phase ******
+
+1:37.146000 - Selected action unstack(C_, B_) from plan:
+
+1:38.355000 - Starting cycle 11
+
+1:38.357000 - ****** Starting Simulate Phase ******
+
+1:38.359000 - simulating MIDCA action: unstack(C_, B_)
+
+1:38.361000 - Simulating action: lightonfire(Gui Montag, C_)
+
+1:38.363000 -                             
+                            
+                            
+        -------              
+       |  B_  |              
+        -------              
+        -------          / \  
+       |  A_  |         /   \ 
+        -------        /  D_ \
+------------------------------------------
+
+1:39.121000 - ****** Starting Perceive Phase ******
+
+1:39.123000 - World observed.
+
+1:40.235000 - ****** Starting Interpret Phase ******
+
+1:40.251000 - No anomaly detected.
+
+1:40.254000 - MIDCA already has a block stacking goal. Skipping TF-Tree stacking goal generation
+
+1:40.257000 - TF-Tree goal generated: Goal(C_, negate: True, predicate: onfire)
+
+1:40.259000 - Meta-AQUA simulation goal generated: Goal(Gui Montag, negate: True, predicate: free)
+
+1:47.219000 - ****** Starting Eval Phase ******
+
+1:47.228000 - Not all goals achieved; Goal(D_, B_, predicate: on) is not true.
+
+1:51.198000 - ****** Starting Intend Phase ******
+
+1:51.201000 - Selecting goal(s): Goal(Gui Montag, negate: True, predicate: free){'endtime': '0', 'name': 'Goal(D_, B_, predicate: on)', 'state': 'current', 'duration': 0, 'startime': 1562262211.045, 'id': 1}
+
+2:58.071000 - MIDCA is quitting.
+

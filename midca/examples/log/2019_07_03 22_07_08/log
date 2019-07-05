@@ -1,0 +1,104 @@
+ - Memory access at key __goals
+ - Goal Graph initialized.
+
+.016000 - [cognitive] Initializing Simulate module 1 FireReset...done.
+
+.016000 - [cognitive] Initializing Simulate module 2 MidcaActionSimulator...done.
+
+.016000 - [cognitive] Initializing Simulate module 3 ArsonSimulator...done.
+
+.016000 - [cognitive] Initializing Simulate module 4 ASCIIWorldViewer...done.
+
+.063000 - [cognitive] Initializing Perceive module 1 PerfectObserver...done.
+
+.063000 - Memory access at key A-Distance memory
+.063000 - [cognitive] Initializing Interpret module 1 ADistanceAnomalyNoter...done.
+
+.063000 - [cognitive] Initializing Interpret module 2 TFStack...done.
+
+.063000 - [cognitive] Initializing Interpret module 3 TFFire...done.
+
+.063000 - [cognitive] Initializing Interpret module 4 ReactiveApprehend...done.
+
+.078000 - [cognitive] Initializing Eval module 1 SimpleEval...done.
+
+.078000 - Memory access at key Last Scored Goal
+.078000 - Memory access at key Score
+.078000 - [cognitive] Initializing Eval module 2 Scorer...done.
+
+.078000 - [cognitive] Initializing Intend module 1 SimpleIntend...done.
+
+.078000 - Memory access at key __PlanningCount
+.078000 - [cognitive] Initializing Plan module 1 PyHopPlanner...done.
+
+.078000 - [cognitive] Initializing Act module 1 SimpleAct...done.
+
+.078000 - Memory access at key __goals
+.078000 - 
+MIDCA is starting. Please enter commands, or '?' + enter for help. Pressing enter with no input will advance the simulation by one phase.
+
+10.525000 - <module 'midca.modules.goaltime' from 'c:\users\syise\downloads\midca\midca\modules\goaltime.pyc'>
+
+10.525000 - Starting cycle 0
+
+10.541000 - ****** Starting Simulate Phase ******
+
+10.541000 - Memory access at key Score
+10.541000 - Simulator: no actions selected yet by MIDCA.
+
+10.541000 -           / \                
+         /   \               
+        /  D_ \              
+        -------              
+       |  B_  |              
+        -------              
+        -------        -------
+       |  A_  |       |  C_  |
+        -------        -------
+------------------------------------------
+
+11.106000 - <module 'midca.modules.goaltime' from 'c:\users\syise\downloads\midca\midca\modules\goaltime.pyc'>
+
+11.122000 - ****** Starting Perceive Phase ******
+
+11.122000 - Memory access at key __world states
+11.122000 - Memory access at key __world states
+11.122000 - World observed.
+
+12.200000 - <module 'midca.modules.goaltime' from 'c:\users\syise\downloads\midca\midca\modules\goaltime.pyc'>
+
+12.200000 - ****** Starting Interpret Phase ******
+
+12.200000 - Memory access at key __world states
+12.215000 - Memory access at key A-Distance memory
+12.215000 - Memory access at key A-Distance memory
+12.215000 - Memory access at key anomaly state
+12.215000 - Memory access at key A-Distance memory
+12.215000 - Memory access at key A-Distance memory
+12.215000 - No anomaly detected.
+
+12.215000 - Memory access at key A-Distance memory
+12.215000 - Memory access at key __goals
+12.215000 - Memory access at key __world states
+12.215000 - TF-Tree goal generated: Goal(C_, B_, predicate: on)
+
+12.215000 - Memory access at key __goals
+12.215000 - Memory access at key __world states
+12.231000 - Memory access at key __world states
+12.231000 - Memory access at key __world states
+12.919000 - <module 'midca.modules.goaltime' from 'c:\users\syise\downloads\midca\midca\modules\goaltime.pyc'>
+
+12.919000 - ****** Starting Eval Phase ******
+
+12.934000 - Memory access at key __world states
+12.934000 - No current goals. Skipping eval
+
+12.934000 - Memory access at key Last Scored Goal
+13.544000 - <module 'midca.modules.goaltime' from 'c:\users\syise\downloads\midca\midca\modules\goaltime.pyc'>
+
+13.544000 - ****** Starting Intend Phase ******
+
+13.544000 - Memory access at key __goals
+13.544000 - Memory access at key __current goals
+13.544000 - Selecting goal(s): Goal(C_, B_, predicate: on)
+

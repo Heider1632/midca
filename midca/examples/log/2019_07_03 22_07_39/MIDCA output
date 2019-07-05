@@ -1,0 +1,80 @@
+ - Goal Graph initialized.
+
+ - [cognitive] Initializing Simulate module 1 FireReset...done.
+
+ - [cognitive] Initializing Simulate module 2 MidcaActionSimulator...done.
+
+ - [cognitive] Initializing Simulate module 3 ArsonSimulator...done.
+
+ - [cognitive] Initializing Simulate module 4 ASCIIWorldViewer...done.
+
+ - [cognitive] Initializing Perceive module 1 PerfectObserver...done.
+
+ - [cognitive] Initializing Interpret module 1 ADistanceAnomalyNoter...done.
+
+ - [cognitive] Initializing Interpret module 2 TFStack...done.
+
+.016000 - [cognitive] Initializing Interpret module 3 TFFire...done.
+
+.016000 - [cognitive] Initializing Interpret module 4 ReactiveApprehend...done.
+
+.016000 - [cognitive] Initializing Eval module 1 SimpleEval...done.
+
+.016000 - [cognitive] Initializing Eval module 2 Scorer...done.
+
+.016000 - [cognitive] Initializing Intend module 1 SimpleIntend...done.
+
+.016000 - [cognitive] Initializing Plan module 1 PyHopPlanner...done.
+
+.016000 - [cognitive] Initializing Act module 1 SimpleAct...done.
+
+.016000 - 
+MIDCA is starting. Please enter commands, or '?' + enter for help. Pressing enter with no input will advance the simulation by one phase.
+
+1.016000 - <module 'midca.modules.goaltime' from 'c:\users\syise\downloads\midca\midca\modules\goaltime.pyc'>
+
+1.016000 - Starting cycle 0
+
+1.016000 - ****** Starting Simulate Phase ******
+
+1.016000 - Simulator: no actions selected yet by MIDCA.
+
+1.031000 -           / \                
+         /   \               
+        /  D_ \              
+        -------              
+       |  B_  |              
+        -------              
+        -------        -------
+       |  A_  |       |  C_  |
+        -------        -------
+------------------------------------------
+
+1.484000 - <module 'midca.modules.goaltime' from 'c:\users\syise\downloads\midca\midca\modules\goaltime.pyc'>
+
+1.500000 - ****** Starting Perceive Phase ******
+
+1.500000 - World observed.
+
+1.895000 - <module 'midca.modules.goaltime' from 'c:\users\syise\downloads\midca\midca\modules\goaltime.pyc'>
+
+1.911000 - ****** Starting Interpret Phase ******
+
+1.911000 - No anomaly detected.
+
+1.927000 - TF-Tree goal generated: Goal(C_, B_, predicate: on)
+
+2.348000 - <module 'midca.modules.goaltime' from 'c:\users\syise\downloads\midca\midca\modules\goaltime.pyc'>
+
+2.364000 - ****** Starting Eval Phase ******
+
+2.364000 - No current goals. Skipping eval
+
+2.884000 - <module 'midca.modules.goaltime' from 'c:\users\syise\downloads\midca\midca\modules\goaltime.pyc'>
+
+2.900000 - ****** Starting Intend Phase ******
+
+2.900000 - Selecting goal(s): Goal(C_, B_, predicate: on)
+
+27.586000 - MIDCA is quitting.
+

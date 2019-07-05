@@ -1,0 +1,66 @@
+ - Goal Graph initialized.
+
+.016000 - [cognitive] Initializing Simulate module 1 FireReset...done.
+
+.016000 - [cognitive] Initializing Simulate module 2 MidcaActionSimulator...done.
+
+.016000 - [cognitive] Initializing Simulate module 3 ArsonSimulator...done.
+
+.016000 - [cognitive] Initializing Simulate module 4 ASCIIWorldViewer...done.
+
+.016000 - [cognitive] Initializing Perceive module 1 PerfectObserver...done.
+
+.016000 - [cognitive] Initializing Interpret module 1 ADistanceAnomalyNoter...done.
+
+.016000 - [cognitive] Initializing Interpret module 2 TFStack...done.
+
+.016000 - [cognitive] Initializing Interpret module 3 TFFire...done.
+
+.016000 - [cognitive] Initializing Interpret module 4 ReactiveApprehend...done.
+
+.031000 - [cognitive] Initializing Eval module 1 SimpleEval...done.
+
+.031000 - [cognitive] Initializing Eval module 2 Scorer...done.
+
+.031000 - [cognitive] Initializing Intend module 1 SimpleIntend...done.
+
+.031000 - [cognitive] Initializing Plan module 1 PyHopPlanner...done.
+
+.031000 - [cognitive] Initializing Act module 1 SimpleAct...done.
+
+.031000 - 
+MIDCA is starting. Please enter commands, or '?' + enter for help. Pressing enter with no input will advance the simulation by one phase.
+
+.864000 - Starting cycle 0
+
+.864000 - ****** Starting Simulate Phase ******
+
+.864000 - Simulator: no actions selected yet by MIDCA.
+
+.864000 -           / \                
+         /   \               
+        /  D_ \              
+        -------              
+       |  B_  |              
+        -------              
+        -------        -------
+       |  A_  |       |  C_  |
+        -------        -------
+------------------------------------------
+
+1.369000 - ****** Starting Perceive Phase ******
+
+1.385000 - World observed.
+
+1.791000 - ****** Starting Interpret Phase ******
+
+1.806000 - No anomaly detected.
+
+1.806000 - TF-Tree goal generated: Goal(C_, B_, predicate: on)
+
+2.197000 - ****** Starting Eval Phase ******
+
+2.213000 - No current goals. Skipping eval
+
+2.619000 - ****** Starting Intend Phase ******
+

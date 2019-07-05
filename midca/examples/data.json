@@ -1,0 +1,76 @@
+{
+    "goaltimes": [
+        {
+            "endtime": 1562293382.354, 
+            "name": "Goal(C_, B_, predicate: on)", 
+            "state": "archived", 
+            "duration": 4.628000020980835, 
+            "startime": 1562293377.726, 
+            "id": 0
+        }, 
+        {
+            "endtime": 1562293411.104, 
+            "name": "Goal(D_, C_, predicate: on)", 
+            "state": "archived", 
+            "duration": 26.448000192642212, 
+            "startime": 1562293384.656, 
+            "id": 1
+        }, 
+        {
+            "endtime": "0", 
+            "name": "Goal(D_, B_, predicate: on)", 
+            "state": "paused", 
+            "duration": 0, 
+            "startime": 1562293414.745, 
+            "id": 2
+        }, 
+        {
+            "endtime": 1562293488.181, 
+            "name": "Goal(Gui Montag, negate: True, predicate: free)", 
+            "state": "archived", 
+            "duration": 35.562000036239624, 
+            "startime": 1562293452.619, 
+            "id": 3
+        }, 
+        {
+            "endtime": 1562293508.881, 
+            "name": "Goal(B_, negate: True, predicate: onfire)", 
+            "state": "archived", 
+            "duration": 20.276999950408936, 
+            "startime": 1562293488.604, 
+            "id": 4
+        }, 
+        {
+            "endtime": 1562293513.159, 
+            "name": "Goal(A_, negate: True, predicate: onfire)", 
+            "state": "archived", 
+            "duration": 3.680999994277954, 
+            "startime": 1562293509.478, 
+            "id": 5
+        }, 
+        {
+            "endtime": 1562293517.702, 
+            "name": "Goal(C_, negate: True, predicate: onfire)", 
+            "state": "archived", 
+            "duration": 3.994999885559082, 
+            "startime": 1562293513.707, 
+            "id": 6
+        }, 
+        {
+            "endtime": 1562293543.891, 
+            "name": "Goal(D_, negate: True, predicate: onfire)", 
+            "state": "archived", 
+            "duration": 25.669000148773193, 
+            "startime": 1562293518.222, 
+            "id": 7
+        }, 
+        {
+            "endtime": "0", 
+            "name": "Goal(D_, B_, predicate: on)", 
+            "state": "current", 
+            "duration": 0, 
+            "startime": 1562293545.152, 
+            "id": 8
+        }
+    ]
+}

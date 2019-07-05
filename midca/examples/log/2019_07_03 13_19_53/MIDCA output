@@ -1,0 +1,88 @@
+.004000 - Goal Graph initialized.
+
+.015000 - [cognitive] Initializing Simulate module 1 FireReset...done.
+
+.015000 - [cognitive] Initializing Simulate module 2 MidcaActionSimulator...done.
+
+.016000 - [cognitive] Initializing Simulate module 3 ArsonSimulator...done.
+
+.016000 - [cognitive] Initializing Simulate module 4 ASCIIWorldViewer...done.
+
+.017000 - [cognitive] Initializing Perceive module 1 PerfectObserver...done.
+
+.021000 - [cognitive] Initializing Interpret module 1 ADistanceAnomalyNoter...done.
+
+.022000 - [cognitive] Initializing Interpret module 2 TFStack...done.
+
+.022000 - [cognitive] Initializing Interpret module 3 TFFire...done.
+
+.023000 - [cognitive] Initializing Interpret module 4 ReactiveApprehend...done.
+
+.023000 - [cognitive] Initializing Eval module 1 SimpleEval...done.
+
+.024000 - [cognitive] Initializing Eval module 2 Scorer...done.
+
+.024000 - [cognitive] Initializing Intend module 1 SimpleIntend...done.
+
+.025000 - [cognitive] Initializing Plan module 1 PyHopPlanner...done.
+
+.025000 - [cognitive] Initializing Act module 1 SimpleAct...done.
+
+.026000 - 
+MIDCA is starting. Please enter commands, or '?' + enter for help. Pressing enter with no input will advance the simulation by one phase.
+
+.683000 - Starting cycle 0
+
+.684000 - ****** Starting Simulate Phase ******
+
+.685000 - Simulator: no actions selected yet by MIDCA.
+
+.686000 -           / \                
+         /   \               
+        /  D_ \              
+        -------              
+       |  B_  |              
+        -------              
+        -------        -------
+       |  A_  |       |  C_  |
+        -------        -------
+------------------------------------------
+
+5.079000 - hand
+
+5.088000 - True
+
+5.102000 - Starting cycle 1
+
+5.188000 - Starting cycle 2
+
+5.260000 - Starting cycle 3
+
+5.330000 - Starting cycle 4
+
+5.334000 - 4 cycles finished.
+
+10.113000 - ****** Starting Perceive Phase ******
+
+10.114000 - World observed.
+
+11.081000 - ****** Starting Interpret Phase ******
+
+11.098000 - No anomaly detected.
+
+11.102000 - MIDCA already has a block stacking goal. Skipping TF-Tree stacking goal generation
+
+12.004000 - ****** Starting Eval Phase ******
+
+12.012000 - All current goals achieved. Removing them from goal graph
+
+12.013000 - ('Goal Name: ', <midca.goals.Goal instance at 0x06836BE8>)
+
+12.015000 - ('End time:', 1562178005.528)
+
+12.016000 - ('State', 'archived')
+
+12.017000 - removing 1 plans that no longer apply.
+
+11:21.134000 - MIDCA is quitting.
+

@@ -1,0 +1,67 @@
+ - Memory access at key __goals
+ - Goal Graph initialized.
+
+.016000 - [cognitive] Initializing Simulate module 1 FireReset...done.
+
+.016000 - [cognitive] Initializing Simulate module 2 MidcaActionSimulator...init() takes exactly 4 arguments (3 given)
+
+.016000 - 
+[cognitive] Phase Simulate module 2 MidcaActionSimulator has no init function or had an error. Skipping init.
+
+.016000 - [cognitive] Initializing Simulate module 3 ArsonSimulator...done.
+
+.016000 - [cognitive] Initializing Simulate module 4 ASCIIWorldViewer...done.
+
+.016000 - [cognitive] Initializing Perceive module 1 PerfectObserver...init() takes exactly 4 arguments (3 given)
+
+.016000 - 
+[cognitive] Phase Perceive module 1 PerfectObserver has no init function or had an error. Skipping init.
+
+.016000 - [cognitive] Initializing Interpret module 1 ADistanceAnomalyNoter...init() takes exactly 4 arguments (3 given)
+
+.016000 - 
+[cognitive] Phase Interpret module 1 ADistanceAnomalyNoter has no init function or had an error. Skipping init.
+
+.016000 - [cognitive] Initializing Interpret module 2 TFStack...init() takes at least 3 arguments (3 given)
+
+.016000 - 
+[cognitive] Phase Interpret module 2 TFStack has no init function or had an error. Skipping init.
+
+.016000 - [cognitive] Initializing Interpret module 3 TFFire...init() takes at least 3 arguments (3 given)
+
+.016000 - 
+[cognitive] Phase Interpret module 3 TFFire has no init function or had an error. Skipping init.
+
+.016000 - [cognitive] Initializing Interpret module 4 ReactiveApprehend...init() takes at least 3 arguments (3 given)
+
+.016000 - 
+[cognitive] Phase Interpret module 4 ReactiveApprehend has no init function or had an error. Skipping init.
+
+.016000 - [cognitive] Initializing Eval module 1 SimpleEval...init() takes at least 3 arguments (3 given)
+
+.016000 - 
+[cognitive] Phase Eval module 1 SimpleEval has no init function or had an error. Skipping init.
+
+.016000 - Memory access at key Last Scored Goal
+.016000 - Memory access at key Score
+.016000 - [cognitive] Initializing Eval module 2 Scorer...done.
+
+.016000 - [cognitive] Initializing Intend module 1 SimpleIntend...init() takes at least 3 arguments (3 given)
+
+.016000 - 
+[cognitive] Phase Intend module 1 SimpleIntend has no init function or had an error. Skipping init.
+
+.016000 - Memory access at key __PlanningCount
+.016000 - [cognitive] Initializing Plan module 1 PyHopPlanner...done.
+
+.016000 - [cognitive] Initializing Act module 1 SimpleAct...init() takes at least 3 arguments (3 given)
+
+.016000 - 
+[cognitive] Phase Act module 1 SimpleAct has no init function or had an error. Skipping init.
+
+.016000 - Memory access at key __goals
+.031000 - 
+MIDCA is starting. Please enter commands, or '?' + enter for help. Pressing enter with no input will advance the simulation by one phase.
+
+1:37.811000 - MIDCA is quitting.
+

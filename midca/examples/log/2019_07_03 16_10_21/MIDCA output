@@ -1,0 +1,157 @@
+.045000 - Goal Graph initialized.
+
+.073000 - [cognitive] Initializing Simulate module 1 FireReset...done.
+
+.075000 - [cognitive] Initializing Simulate module 2 MidcaActionSimulator...done.
+
+.076000 - [cognitive] Initializing Simulate module 3 ArsonSimulator...done.
+
+.077000 - [cognitive] Initializing Simulate module 4 ASCIIWorldViewer...done.
+
+.081000 - [cognitive] Initializing Perceive module 1 PerfectObserver...done.
+
+.086000 - [cognitive] Initializing Interpret module 1 ADistanceAnomalyNoter...done.
+
+.087000 - [cognitive] Initializing Interpret module 2 TFStack...done.
+
+.089000 - [cognitive] Initializing Interpret module 3 TFFire...done.
+
+.090000 - [cognitive] Initializing Interpret module 4 ReactiveApprehend...done.
+
+.091000 - [cognitive] Initializing Eval module 1 SimpleEval...done.
+
+.092000 - [cognitive] Initializing Eval module 2 Scorer...done.
+
+.093000 - [cognitive] Initializing Intend module 1 SimpleIntend...done.
+
+.093000 - [cognitive] Initializing Plan module 1 PyHopPlanner...done.
+
+.094000 - [cognitive] Initializing Act module 1 SimpleAct...done.
+
+.095000 - 
+MIDCA is starting. Please enter commands, or '?' + enter for help. Pressing enter with no input will advance the simulation by one phase.
+
+.880000 - Starting cycle 0
+
+.882000 - ****** Starting Simulate Phase ******
+
+.882000 - Simulator: no actions selected yet by MIDCA.
+
+.885000 -           / \                
+         /   \               
+        /  D_ \              
+        -------              
+       |  B_  |              
+        -------              
+        -------        -------
+       |  A_  |       |  C_  |
+        -------        -------
+------------------------------------------
+
+1.335000 - ****** Starting Perceive Phase ******
+
+1.338000 - World observed.
+
+1.640000 - ****** Starting Interpret Phase ******
+
+1.654000 - No anomaly detected.
+
+1.663000 - TF-Tree goal generated: Goal(C_, B_, predicate: on)
+
+2.190000 - ****** Starting Eval Phase ******
+
+2.198000 - No current goals. Skipping eval
+
+2.991000 - ****** Starting Intend Phase ******
+
+3.002000 - Selecting goal(s): Goal(C_, B_, predicate: on)
+
+14.401000 - ****** Starting Plan Phase ******
+
+14.414000 - Planning...
+
+14.416000 - hand
+
+14.417000 - True
+
+14.418000 - Planning complete.
+
+14.419000 - Plan: 
+
+14.420000 -   unstack(D_, B_)
+
+14.421000 -   putdown(D_)
+
+14.422000 -   pickup(C_)
+
+14.428000 -   stack(C_, B_)
+
+14.860000 - ****** Starting Act Phase ******
+
+14.910000 - Selected action unstack(D_, B_) from plan:
+
+14.911000 - [unstack(D_, B_)] putdown(D_) pickup(C_) stack(C_, B_)
+
+19.759000 - Starting cycle 1
+
+19.832000 - Starting cycle 2
+
+19.932000 - Starting cycle 3
+
+20.032000 - Starting cycle 4
+
+20.124000 - 4 cycles finished.
+
+21.186000 - Starting cycle 5
+
+21.191000 - ****** Starting Simulate Phase ******
+
+21.194000 - No actions selected this cycle by MIDCA.
+
+21.200000 -         -------              
+       |  C_  |              
+        -------              
+        -------              
+       |  B_  |              
+        -------              
+        -------          / \  
+       |  A_  |         /   \ 
+        -------        /  D_ \
+------------------------------------------
+
+22.333000 - ****** Starting Perceive Phase ******
+
+22.334000 - World observed.
+
+23.417000 - ****** Starting Interpret Phase ******
+
+23.439000 - No anomaly detected.
+
+23.442000 - TF-Tree goal generated: Goal(D_, C_, predicate: on)
+
+25.279000 - ****** Starting Eval Phase ******
+
+25.292000 - No current goals. Skipping eval
+
+36.622000 - ****** Starting Intend Phase ******
+
+36.632000 - Selecting goal(s): Goal(D_, C_, predicate: on)
+
+37.174000 - ****** Starting Plan Phase ******
+
+37.182000 - Planning...
+
+37.184000 - hand
+
+37.185000 - True
+
+37.190000 - Planning complete.
+
+37.193000 - Plan: 
+
+37.196000 -   pickup(D_)
+
+37.198000 -   stack(D_, C_)
+
+14:37.151000 - MIDCA is quitting.
+

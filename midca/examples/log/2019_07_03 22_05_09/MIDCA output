@@ -1,0 +1,35 @@
+ - Goal Graph initialized.
+
+.016000 - [cognitive] Initializing Simulate module 1 FireReset...done.
+
+.016000 - [cognitive] Initializing Simulate module 2 MidcaActionSimulator...done.
+
+.016000 - [cognitive] Initializing Simulate module 3 ArsonSimulator...done.
+
+.016000 - [cognitive] Initializing Simulate module 4 ASCIIWorldViewer...done.
+
+.016000 - [cognitive] Initializing Perceive module 1 PerfectObserver...done.
+
+.047000 - [cognitive] Initializing Interpret module 1 ADistanceAnomalyNoter...done.
+
+.047000 - [cognitive] Initializing Interpret module 2 TFStack...done.
+
+.047000 - [cognitive] Initializing Interpret module 3 TFFire...done.
+
+.047000 - [cognitive] Initializing Interpret module 4 ReactiveApprehend...done.
+
+.047000 - [cognitive] Initializing Eval module 1 SimpleEval...done.
+
+.062000 - [cognitive] Initializing Eval module 2 Scorer...done.
+
+.062000 - [cognitive] Initializing Intend module 1 SimpleIntend...done.
+
+.062000 - [cognitive] Initializing Plan module 1 PyHopPlanner...done.
+
+.062000 - [cognitive] Initializing Act module 1 SimpleAct...done.
+
+.062000 - 
+MIDCA is starting. Please enter commands, or '?' + enter for help. Pressing enter with no input will advance the simulation by one phase.
+
+43.036000 - MIDCA is quitting.
+

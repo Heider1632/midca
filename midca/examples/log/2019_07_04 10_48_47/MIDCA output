@@ -1,0 +1,43 @@
+ - Goal Graph initialized.
+
+ - [cognitive] Initializing Simulate module 1 FireReset...done.
+
+ - [cognitive] Initializing Simulate module 2 MidcaActionSimulator...init() takes exactly 4 arguments (3 given)
+
+ - 
+[cognitive] Phase Simulate module 2 MidcaActionSimulator has no init function or had an error. Skipping init.
+
+ - [cognitive] Initializing Simulate module 3 ArsonSimulator...done.
+
+ - [cognitive] Initializing Simulate module 4 ASCIIWorldViewer...done.
+
+ - [cognitive] Initializing Perceive module 1 PerfectObserver...<midca.mem.Memory instance at 0x05FC9F30>
+
+ - done.
+
+ - [cognitive] Initializing Interpret module 1 ADistanceAnomalyNoter...init() takes exactly 4 arguments (3 given)
+
+ - 
+[cognitive] Phase Interpret module 1 ADistanceAnomalyNoter has no init function or had an error. Skipping init.
+
+ - [cognitive] Initializing Interpret module 2 TFStack...done.
+
+ - [cognitive] Initializing Interpret module 3 TFFire...done.
+
+ - [cognitive] Initializing Interpret module 4 ReactiveApprehend...done.
+
+ - [cognitive] Initializing Eval module 1 SimpleEval...done.
+
+ - [cognitive] Initializing Eval module 2 Scorer...done.
+
+ - [cognitive] Initializing Intend module 1 SimpleIntend...done.
+
+ - [cognitive] Initializing Plan module 1 PyHopPlanner...done.
+
+ - [cognitive] Initializing Act module 1 SimpleAct...done.
+
+ - 
+MIDCA is starting. Please enter commands, or '?' + enter for help. Pressing enter with no input will advance the simulation by one phase.
+
+20.597000 - MIDCA is quitting.
+

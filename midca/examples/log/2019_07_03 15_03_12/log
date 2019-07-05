@@ -1,0 +1,122 @@
+.004000 - Memory access at key __goals
+.008000 - Goal Graph initialized.
+
+.010000 - [cognitive] Initializing Simulate module 1 FireReset...done.
+
+.011000 - [cognitive] Initializing Simulate module 2 MidcaActionSimulator...done.
+
+.011000 - [cognitive] Initializing Simulate module 3 ArsonSimulator...done.
+
+.014000 - [cognitive] Initializing Simulate module 4 ASCIIWorldViewer...done.
+
+.015000 - [cognitive] Initializing Perceive module 1 PerfectObserver...done.
+
+.022000 - Memory access at key A-Distance memory
+.023000 - [cognitive] Initializing Interpret module 1 ADistanceAnomalyNoter...done.
+
+.025000 - [cognitive] Initializing Interpret module 2 TFStack...done.
+
+.026000 - [cognitive] Initializing Interpret module 3 TFFire...done.
+
+.027000 - [cognitive] Initializing Interpret module 4 ReactiveApprehend...done.
+
+.035000 - [cognitive] Initializing Eval module 1 SimpleEval...done.
+
+.038000 - Memory access at key Last Scored Goal
+.038000 - Memory access at key Score
+.039000 - [cognitive] Initializing Eval module 2 Scorer...done.
+
+.040000 - [cognitive] Initializing Intend module 1 SimpleIntend...done.
+
+.043000 - Memory access at key __PlanningCount
+.043000 - [cognitive] Initializing Plan module 1 PyHopPlanner...done.
+
+.044000 - [cognitive] Initializing Act module 1 SimpleAct...done.
+
+.044000 - Memory access at key __goals
+.045000 - 
+MIDCA is starting. Please enter commands, or '?' + enter for help. Pressing enter with no input will advance the simulation by one phase.
+
+.641000 - Starting cycle 0
+
+.642000 - ****** Starting Simulate Phase ******
+
+.642000 - Memory access at key Score
+.643000 - Simulator: no actions selected yet by MIDCA.
+
+.646000 -           / \                
+         /   \               
+        /  D_ \              
+        -------              
+       |  B_  |              
+        -------              
+        -------        -------
+       |  A_  |       |  C_  |
+        -------        -------
+------------------------------------------
+
+1.081000 - ****** Starting Perceive Phase ******
+
+1.086000 - Memory access at key __world states
+1.087000 - Memory access at key __world states
+1.087000 - World observed.
+
+1.556000 - ****** Starting Interpret Phase ******
+
+1.558000 - Memory access at key __world states
+1.589000 - Memory access at key A-Distance memory
+1.609000 - Memory access at key A-Distance memory
+1.609000 - Memory access at key anomaly state
+1.609000 - Memory access at key A-Distance memory
+1.609000 - Memory access at key A-Distance memory
+1.610000 - No anomaly detected.
+
+1.615000 - Memory access at key A-Distance memory
+1.619000 - Memory access at key __goals
+1.619000 - Memory access at key __world states
+1.646000 - TF-Tree goal generated: Goal(C_, B_, predicate: on)
+
+1.652000 - Memory access at key __goals
+1.660000 - Memory access at key __world states
+1.675000 - Memory access at key __world states
+1.687000 - Memory access at key __world states
+2.249000 - ****** Starting Eval Phase ******
+
+2.250000 - Memory access at key __world states
+2.261000 - No current goals. Skipping eval
+
+2.267000 - Memory access at key Last Scored Goal
+2.991000 - ****** Starting Intend Phase ******
+
+2.993000 - Memory access at key __goals
+2.994000 - Memory access at key __current goals
+3.023000 - Selecting goal(s): Goal(C_, B_, predicate: on)
+
+5.952000 - ****** Starting Plan Phase ******
+
+5.954000 - Memory access at key __world states
+5.954000 - Memory access at key __current goals
+5.971000 - Memory access at key __goals
+5.972000 - Planning...
+
+5.973000 - Memory access at key __PlanningCount
+5.974000 - Memory access at key __PlanningCount
+5.977000 - hand
+
+5.985000 - True
+
+5.987000 - Planning complete.
+
+5.996000 - Plan: 
+
+6.001000 -   unstack(D_, B_)
+
+6.004000 -   putdown(D_)
+
+6.021000 -   pickup(C_)
+
+6.025000 -   stack(C_, B_)
+
+6.027000 - Memory access at key __goals
+5:12.313000 - MIDCA is quitting.
+

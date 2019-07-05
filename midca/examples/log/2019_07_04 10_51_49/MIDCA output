@@ -1,0 +1,53 @@
+.032000 - Goal Graph initialized.
+
+.032000 - [cognitive] Initializing Simulate module 1 FireReset...init() got an unexpected keyword argument 'goaltime'
+
+.032000 - 
+[cognitive] Phase Simulate module 1 FireReset has no init function or had an error. Skipping init.
+
+.032000 - [cognitive] Initializing Simulate module 2 MidcaActionSimulator...done.
+
+.032000 - [cognitive] Initializing Simulate module 3 ArsonSimulator...init() got an unexpected keyword argument 'goaltime'
+
+.032000 - 
+[cognitive] Phase Simulate module 3 ArsonSimulator has no init function or had an error. Skipping init.
+
+.032000 - [cognitive] Initializing Simulate module 4 ASCIIWorldViewer...init() got an unexpected keyword argument 'goaltime'
+
+.032000 - 
+[cognitive] Phase Simulate module 4 ASCIIWorldViewer has no init function or had an error. Skipping init.
+
+.032000 - [cognitive] Initializing Perceive module 1 PerfectObserver...init() takes at least 3 arguments (2 given)
+
+.032000 - 
+[cognitive] Phase Perceive module 1 PerfectObserver has no init function or had an error. Skipping init.
+
+.032000 - [cognitive] Initializing Interpret module 1 ADistanceAnomalyNoter...done.
+
+.032000 - [cognitive] Initializing Interpret module 2 TFStack...done.
+
+.032000 - [cognitive] Initializing Interpret module 3 TFFire...done.
+
+.032000 - [cognitive] Initializing Interpret module 4 ReactiveApprehend...done.
+
+.032000 - [cognitive] Initializing Eval module 1 SimpleEval...done.
+
+.032000 - [cognitive] Initializing Eval module 2 Scorer...init() got an unexpected keyword argument 'goaltime'
+
+.032000 - 
+[cognitive] Phase Eval module 2 Scorer has no init function or had an error. Skipping init.
+
+.047000 - [cognitive] Initializing Intend module 1 SimpleIntend...done.
+
+.047000 - [cognitive] Initializing Plan module 1 PyHopPlanner...init() got an unexpected keyword argument 'goaltime'
+
+.047000 - 
+[cognitive] Phase Plan module 1 PyHopPlanner has no init function or had an error. Skipping init.
+
+.047000 - [cognitive] Initializing Act module 1 SimpleAct...done.
+
+.047000 - 
+MIDCA is starting. Please enter commands, or '?' + enter for help. Pressing enter with no input will advance the simulation by one phase.
+
+37.203000 - MIDCA is quitting.
+

@@ -1,0 +1,59 @@
+.002000 - Memory access at key __goals
+.013000 - Memory access at key A-Distance memory
+.017000 - Memory access at key Last Scored Goal
+.017000 - Memory access at key Score
+.018000 - Memory access at key __PlanningCount
+.019000 - Memory access at key __goals
+.418000 - Starting cycle 0
+
+.419000 - ****** Starting Simulate Phase ******
+
+.419000 - Memory access at key Score
+.859000 - ****** Starting Perceive Phase ******
+
+.860000 - Memory access at key __world states
+.860000 - Memory access at key __world states
+1.276000 - ****** Starting Interpret Phase ******
+
+1.277000 - Memory access at key __world states
+1.285000 - Memory access at key A-Distance memory
+1.292000 - Memory access at key A-Distance memory
+1.293000 - Memory access at key anomaly state
+1.293000 - Memory access at key A-Distance memory
+1.293000 - Memory access at key A-Distance memory
+1.294000 - Memory access at key A-Distance memory
+1.295000 - Memory access at key __goals
+1.295000 - Memory access at key __world states
+1.304000 - Memory access at key __goals
+1.308000 - Memory access at key __world states
+1.310000 - Memory access at key __world states
+1.310000 - Memory access at key __world states
+1.793000 - ****** Starting Eval Phase ******
+
+1.796000 - Memory access at key __world states
+1.826000 - Memory access at key Last Scored Goal
+2.303000 - ****** Starting Intend Phase ******
+
+2.305000 - Memory access at key __goals
+2.305000 - Memory access at key __current goals
+2.720000 - ****** Starting Plan Phase ******
+
+2.720000 - Memory access at key __world states
+2.720000 - Memory access at key __current goals
+2.729000 - Memory access at key __goals
+2.732000 - Memory access at key __PlanningCount
+2.732000 - Memory access at key __PlanningCount
+2.766000 - Memory access at key __goals
+5.113000 - ****** Starting Act Phase ******
+
+5.114000 - Memory access at key __world states
+5.114000 - Memory access at key __current goals
+5.114000 - Memory access at key __goals
+5.127000 - Memory access at key __actions
+5.127000 - Memory access at key __actions
+8.941000 - Starting cycle 1
+
+8.944000 - ****** Starting Simulate Phase ******
+
+8.945000 - Memory access at key Score
+8.946000 - Memory access at key __actions

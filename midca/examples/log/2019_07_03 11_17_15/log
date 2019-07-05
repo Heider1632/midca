@@ -1,0 +1,508 @@
+.002000 - Memory access at key __goals
+.005000 - Goal Graph initialized.
+
+.020000 - [cognitive] Initializing Simulate module 1 FireReset...done.
+
+.020000 - [cognitive] Initializing Simulate module 2 MidcaActionSimulator...done.
+
+.021000 - [cognitive] Initializing Simulate module 3 ArsonSimulator...done.
+
+.021000 - [cognitive] Initializing Simulate module 4 ASCIIWorldViewer...done.
+
+.022000 - [cognitive] Initializing Perceive module 1 PerfectObserver...done.
+
+.029000 - Memory access at key A-Distance memory
+.029000 - [cognitive] Initializing Interpret module 1 ADistanceAnomalyNoter...done.
+
+.030000 - [cognitive] Initializing Interpret module 2 TFStack...done.
+
+.031000 - [cognitive] Initializing Interpret module 3 TFFire...done.
+
+.032000 - [cognitive] Initializing Interpret module 4 ReactiveApprehend...done.
+
+.036000 - [cognitive] Initializing Eval module 1 SimpleEval...done.
+
+.036000 - Memory access at key Last Scored Goal
+.036000 - Memory access at key Score
+.037000 - [cognitive] Initializing Eval module 2 Scorer...done.
+
+.038000 - [cognitive] Initializing Intend module 1 SimpleIntend...done.
+
+.040000 - Memory access at key __PlanningCount
+.041000 - [cognitive] Initializing Plan module 1 PyHopPlanner...done.
+
+.041000 - [cognitive] Initializing Act module 1 SimpleAct...done.
+
+.042000 - Memory access at key __goals
+.042000 - 
+MIDCA is starting. Please enter commands, or '?' + enter for help. Pressing enter with no input will advance the simulation by one phase.
+
+.551000 - Starting cycle 0
+
+.552000 - ****** Starting Simulate Phase ******
+
+.552000 - Memory access at key Score
+.553000 - Simulator: no actions selected yet by MIDCA.
+
+.555000 -           / \                
+         /   \               
+        /  D_ \              
+        -------              
+       |  B_  |              
+        -------              
+        -------        -------
+       |  A_  |       |  C_  |
+        -------        -------
+------------------------------------------
+
+1.051000 - ****** Starting Perceive Phase ******
+
+1.053000 - Memory access at key __world states
+1.053000 - Memory access at key __world states
+1.054000 - World observed.
+
+1.426000 - ****** Starting Interpret Phase ******
+
+1.436000 - Memory access at key __world states
+1.460000 - Memory access at key A-Distance memory
+1.473000 - Memory access at key A-Distance memory
+1.473000 - Memory access at key anomaly state
+1.473000 - Memory access at key A-Distance memory
+1.473000 - Memory access at key A-Distance memory
+1.474000 - No anomaly detected.
+
+1.477000 - Memory access at key A-Distance memory
+1.479000 - Memory access at key __goals
+1.479000 - Memory access at key __world states
+1.491000 - TF-Tree goal generated: Goal(C_, B_, predicate: on)
+
+1.491000 - Memory access at key __goals
+1.496000 - Memory access at key __world states
+1.502000 - Memory access at key __world states
+1.502000 - Memory access at key __world states
+1.872000 - ****** Starting Eval Phase ******
+
+1.877000 - Memory access at key __world states
+1.890000 - No current goals. Skipping eval
+
+1.893000 - Memory access at key Last Scored Goal
+2.306000 - ****** Starting Intend Phase ******
+
+2.308000 - Memory access at key __goals
+2.308000 - Memory access at key __current goals
+2.313000 - Selecting goal(s): Goal(C_, B_, predicate: on) 0
+
+2.319000 - 1
+
+14.892000 - ****** Starting Plan Phase ******
+
+14.893000 - Memory access at key __world states
+14.893000 - Memory access at key __current goals
+14.903000 - Memory access at key __goals
+14.904000 - Planning...
+
+14.905000 - Memory access at key __PlanningCount
+14.905000 - Memory access at key __PlanningCount
+14.910000 - hand
+
+14.912000 - True
+
+14.916000 - Planning complete.
+
+14.922000 - Plan: 
+
+14.933000 -   unstack(D_, B_)
+
+14.938000 -   putdown(D_)
+
+14.953000 -   pickup(C_)
+
+14.971000 -   stack(C_, B_)
+
+14.974000 - Memory access at key __goals
+17.626000 - ****** Starting Act Phase ******
+
+17.627000 - Memory access at key __world states
+17.627000 - Memory access at key __current goals
+17.627000 - Memory access at key __goals
+17.644000 - Selected action unstack(D_, B_) from plan:
+
+17.646000 - [unstack(D_, B_)] putdown(D_) pickup(C_) stack(C_, B_)
+
+17.647000 - Memory access at key __actions
+17.647000 - Memory access at key __actions
+18.804000 - Starting cycle 1
+
+18.808000 - ****** Starting Simulate Phase ******
+
+18.811000 - Memory access at key Score
+18.812000 - Memory access at key __actions
+18.817000 - simulating MIDCA action: unstack(D_, B_)
+
+18.828000 -                             
+                            
+                            
+        -------              
+       |  B_  |              
+        -------              
+        -------        -------
+       |  A_  |       |  C_  |
+        -------        -------
+------------------------------------------
+
+20.051000 - ****** Starting Perceive Phase ******
+
+20.052000 - Memory access at key __world states
+20.052000 - Memory access at key __world states
+20.053000 - World observed.
+
+20.672000 - ****** Starting Interpret Phase ******
+
+20.673000 - Memory access at key __world states
+20.686000 - Memory access at key A-Distance memory
+20.704000 - Memory access at key A-Distance memory
+20.704000 - Memory access at key anomaly state
+20.704000 - Memory access at key A-Distance memory
+20.704000 - Memory access at key A-Distance memory
+20.706000 - No anomaly detected.
+
+20.707000 - Memory access at key A-Distance memory
+20.709000 - Memory access at key __goals
+20.710000 - MIDCA already has a block stacking goal. Skipping TF-Tree stacking goal generation
+
+20.711000 - Memory access at key __world states
+20.714000 - Memory access at key __world states
+20.714000 - Memory access at key __world states
+21.423000 - ****** Starting Eval Phase ******
+
+21.426000 - Memory access at key __world states
+21.426000 - Memory access at key __current goals
+21.461000 - Not all goals achieved; Goal(C_, B_, predicate: on) is not true.
+
+21.465000 - Memory access at key Last Scored Goal
+21.466000 - Memory access at key __current goals
+21.466000 - Memory access at key __current goals
+21.812000 - ****** Starting Intend Phase ******
+
+21.814000 - Memory access at key __goals
+21.814000 - Memory access at key __current goals
+21.814000 - Memory access at key __current goals
+21.815000 - No goals selected.
+
+22.180000 - ****** Starting Plan Phase ******
+
+22.182000 - Memory access at key __world states
+22.182000 - Memory access at key __current goals
+22.191000 - Memory access at key __goals
+22.194000 - Old plan retrieved. Checking validity... valid.
+
+22.200000 - checking to see if all goals are achieved... yes
+
+22.559000 - ****** Starting Act Phase ******
+
+22.561000 - Memory access at key __world states
+22.561000 - Memory access at key __current goals
+22.561000 - Memory access at key __goals
+22.589000 - Selected action putdown(D_) from plan:
+
+22.591000 - unstack(D_, B_) [putdown(D_)] pickup(C_) stack(C_, B_)
+
+22.591000 - Memory access at key __actions
+22.591000 - Memory access at key __actions
+22.882000 - Starting cycle 2
+
+22.886000 - ****** Starting Simulate Phase ******
+
+22.890000 - Memory access at key Score
+22.895000 - Memory access at key __actions
+22.922000 - simulating MIDCA action: putdown(D_)
+
+22.970000 -         -------                            
+       |  B_  |                            
+        -------                            
+        -------        -------          / \  
+       |  A_  |       |  C_  |         /   \ 
+        -------        -------        /  D_ \
+--------------------------------------------------------
+
+23.285000 - ****** Starting Perceive Phase ******
+
+23.286000 - Memory access at key __world states
+23.286000 - Memory access at key __world states
+23.287000 - World observed.
+
+23.635000 - ****** Starting Interpret Phase ******
+
+23.636000 - Memory access at key __world states
+23.647000 - Memory access at key A-Distance memory
+23.661000 - Memory access at key A-Distance memory
+23.661000 - Memory access at key anomaly state
+23.661000 - Memory access at key A-Distance memory
+23.661000 - Memory access at key A-Distance memory
+23.663000 - No anomaly detected.
+
+23.667000 - Memory access at key A-Distance memory
+23.672000 - Memory access at key __goals
+23.685000 - MIDCA already has a block stacking goal. Skipping TF-Tree stacking goal generation
+
+23.691000 - Memory access at key __world states
+23.695000 - Memory access at key __world states
+23.695000 - Memory access at key __world states
+24.082000 - ****** Starting Eval Phase ******
+
+24.083000 - Memory access at key __world states
+24.083000 - Memory access at key __current goals
+24.098000 - Not all goals achieved; Goal(C_, B_, predicate: on) is not true.
+
+24.102000 - Memory access at key Last Scored Goal
+24.102000 - Memory access at key __current goals
+24.102000 - Memory access at key __current goals
+24.735000 - ****** Starting Intend Phase ******
+
+24.739000 - Memory access at key __goals
+24.739000 - Memory access at key __current goals
+24.739000 - Memory access at key __current goals
+24.740000 - No goals selected.
+
+25.357000 - ****** Starting Plan Phase ******
+
+25.358000 - Memory access at key __world states
+25.358000 - Memory access at key __current goals
+25.372000 - Memory access at key __goals
+25.377000 - Old plan retrieved. Checking validity... valid.
+
+25.388000 - checking to see if all goals are achieved... yes
+
+26.815000 - ****** Starting Act Phase ******
+
+26.816000 - Memory access at key __world states
+26.816000 - Memory access at key __current goals
+26.816000 - Memory access at key __goals
+26.841000 - Selected action pickup(C_) from plan:
+
+26.843000 - unstack(D_, B_) putdown(D_) [pickup(C_)] stack(C_, B_)
+
+26.844000 - Memory access at key __actions
+26.844000 - Memory access at key __actions
+28.057000 - Starting cycle 3
+
+28.062000 - ****** Starting Simulate Phase ******
+
+28.067000 - Memory access at key Score
+28.068000 - Memory access at key __actions
+28.070000 - simulating MIDCA action: pickup(C_)
+
+28.092000 -                             
+                            
+                            
+        -------              
+       |  B_  |              
+        -------              
+        -------          / \  
+       |  A_  |         /   \ 
+        -------        /  D_ \
+------------------------------------------
+
+28.689000 - ****** Starting Perceive Phase ******
+
+28.690000 - Memory access at key __world states
+28.690000 - Memory access at key __world states
+28.691000 - World observed.
+
+29.301000 - ****** Starting Interpret Phase ******
+
+29.302000 - Memory access at key __world states
+29.312000 - Memory access at key A-Distance memory
+29.325000 - Memory access at key A-Distance memory
+29.325000 - Memory access at key anomaly state
+29.325000 - Memory access at key A-Distance memory
+29.325000 - Memory access at key A-Distance memory
+29.326000 - No anomaly detected.
+
+29.328000 - Memory access at key A-Distance memory
+29.329000 - Memory access at key __goals
+29.330000 - MIDCA already has a block stacking goal. Skipping TF-Tree stacking goal generation
+
+29.333000 - Memory access at key __world states
+29.340000 - Memory access at key __world states
+29.340000 - Memory access at key __world states
+30.352000 - ****** Starting Eval Phase ******
+
+30.353000 - Memory access at key __world states
+30.353000 - Memory access at key __current goals
+30.364000 - Not all goals achieved; Goal(C_, B_, predicate: on) is not true.
+
+30.375000 - Memory access at key Last Scored Goal
+30.375000 - Memory access at key __current goals
+30.375000 - Memory access at key __current goals
+30.915000 - ****** Starting Intend Phase ******
+
+30.917000 - Memory access at key __goals
+30.917000 - Memory access at key __current goals
+30.917000 - Memory access at key __current goals
+30.918000 - No goals selected.
+
+31.552000 - ****** Starting Plan Phase ******
+
+31.553000 - Memory access at key __world states
+31.553000 - Memory access at key __current goals
+31.563000 - Memory access at key __goals
+31.565000 - Old plan retrieved. Checking validity... valid.
+
+31.574000 - checking to see if all goals are achieved... yes
+
+32.058000 - ****** Starting Act Phase ******
+
+32.059000 - Memory access at key __world states
+32.060000 - Memory access at key __current goals
+32.060000 - Memory access at key __goals
+32.074000 - Selected action stack(C_, B_) from plan:
+
+32.077000 - unstack(D_, B_) putdown(D_) pickup(C_) [stack(C_, B_)]
+
+32.077000 - Memory access at key __actions
+32.080000 - Memory access at key __actions
+32.723000 - Starting cycle 4
+
+32.728000 - ****** Starting Simulate Phase ******
+
+32.729000 - Memory access at key Score
+32.730000 - Memory access at key __actions
+32.731000 - simulating MIDCA action: stack(C_, B_)
+
+32.750000 -         -------              
+       |  C_  |              
+        -------              
+        -------              
+       |  B_  |              
+        -------              
+        -------          / \  
+       |  A_  |         /   \ 
+        -------        /  D_ \
+------------------------------------------
+
+33.559000 - ****** Starting Perceive Phase ******
+
+33.561000 - Memory access at key __world states
+33.561000 - Memory access at key __world states
+33.562000 - World observed.
+
+34.586000 - ****** Starting Interpret Phase ******
+
+34.591000 - Memory access at key __world states
+34.608000 - Memory access at key A-Distance memory
+34.622000 - Memory access at key A-Distance memory
+34.622000 - Memory access at key anomaly state
+34.622000 - Memory access at key A-Distance memory
+34.622000 - Memory access at key A-Distance memory
+34.623000 - No anomaly detected.
+
+34.625000 - Memory access at key A-Distance memory
+34.626000 - Memory access at key __goals
+34.627000 - MIDCA already has a block stacking goal. Skipping TF-Tree stacking goal generation
+
+34.630000 - Memory access at key __world states
+34.637000 - Memory access at key __world states
+34.638000 - Memory access at key __world states
+35.108000 - ****** Starting Eval Phase ******
+
+35.109000 - Memory access at key __world states
+35.109000 - Memory access at key __current goals
+35.137000 - All current goals achieved. Removing them from goal graph
+
+35.137000 - Memory access at key __goals
+35.139000 - ('Goal Name: ', <midca.goals.Goal instance at 0x06F98198>)
+
+35.141000 - ('End time:', 1562170670.203)
+
+35.143000 - ('State', 'true')
+
+35.145000 - removing 1 plans that no longer apply.
+
+35.151000 - Memory access at key __current goals
+35.151000 - Memory access at key Last Scored Goal
+35.152000 - Memory access at key __current goals
+36.451000 - ****** Starting Intend Phase ******
+
+36.455000 - Memory access at key __goals
+36.455000 - No Goals in Goal graph. Intend will do nothing.
+
+36.916000 - ****** Starting Plan Phase ******
+
+36.918000 - Memory access at key __world states
+36.919000 - Memory access at key __current goals
+36.932000 - No goals received by planner. Skipping planning.
+
+37.362000 - ****** Starting Act Phase ******
+
+37.365000 - Memory access at key __world states
+37.365000 - Memory access at key __current goals
+37.365000 - Memory access at key __goals
+37.366000 - No valid plan found that achieves any current goals.
+
+37.380000 - MIDCA will not select an action this cycle.
+
+37.388000 - Memory access at key __actions
+37.764000 - Starting cycle 5
+
+37.769000 - ****** Starting Simulate Phase ******
+
+37.771000 - Memory access at key Score
+37.771000 - Memory access at key __actions
+37.773000 - No actions selected this cycle by MIDCA.
+
+37.783000 -         -------              
+       |  C_  |              
+        -------              
+        -------              
+       |  B_  |              
+        -------              
+        -------          / \  
+       |  A_  |         /   \ 
+        -------        /  D_ \
+------------------------------------------
+
+38.263000 - ****** Starting Perceive Phase ******
+
+38.265000 - Memory access at key __world states
+38.265000 - Memory access at key __world states
+38.265000 - World observed.
+
+38.716000 - ****** Starting Interpret Phase ******
+
+38.717000 - Memory access at key __world states
+38.730000 - Memory access at key A-Distance memory
+38.756000 - Memory access at key A-Distance memory
+38.756000 - Memory access at key anomaly state
+38.756000 - Memory access at key A-Distance memory
+38.756000 - Memory access at key A-Distance memory
+38.760000 - No anomaly detected.
+
+38.763000 - Memory access at key A-Distance memory
+38.765000 - Memory access at key __goals
+38.767000 - Memory access at key __world states
+38.772000 - TF-Tree goal generated: Goal(D_, C_, predicate: on)
+
+38.773000 - Memory access at key __goals
+38.774000 - Memory access at key __world states
+38.775000 - Memory access at key __world states
+38.775000 - Memory access at key __world states
+39.964000 - ****** Starting Eval Phase ******
+
+39.966000 - Memory access at key __world states
+39.966000 - Memory access at key __current goals
+39.998000 - No current goals. Skipping eval
+
+40.001000 - Memory access at key Last Scored Goal
+40.002000 - Memory access at key __current goals
+40.574000 - ****** Starting Intend Phase ******
+
+40.576000 - Memory access at key __goals
+40.576000 - Memory access at key __current goals
+40.576000 - Memory access at key __current goals
+40.578000 - Selecting goal(s): Goal(D_, C_, predicate: on) 0
+
+40.582000 - 1
+
+2:53.746000 - MIDCA is quitting.
+

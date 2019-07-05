@@ -1,0 +1,6 @@
+digraph
+{
+  Goal1 [label="Goal(C_, B_, predicate: on) "]
+
+
+}

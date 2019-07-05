@@ -1,0 +1,416 @@
+ - Memory access at key __goals
+.015000 - Memory access at key A-Distance memory
+.015000 - Memory access at key Last Scored Goal
+.015000 - Memory access at key Score
+.015000 - Memory access at key __PlanningCount
+.015000 - Memory access at key __goals
+.531000 - Starting cycle 0
+
+.531000 - ****** Starting Simulate Phase ******
+
+.531000 - Memory access at key Score
+.906000 - ****** Starting Perceive Phase ******
+
+.906000 - Memory access at key __world states
+.906000 - Memory access at key __world states
+1.328000 - ****** Starting Interpret Phase ******
+
+1.328000 - Memory access at key __world states
+1.328000 - Memory access at key A-Distance memory
+1.344000 - Memory access at key A-Distance memory
+1.344000 - Memory access at key anomaly state
+1.344000 - Memory access at key A-Distance memory
+1.344000 - Memory access at key A-Distance memory
+1.344000 - Memory access at key A-Distance memory
+1.344000 - Memory access at key __goals
+1.344000 - Memory access at key __world states
+1.344000 - Memory access at key __goals
+1.344000 - Memory access at key __world states
+1.344000 - Memory access at key __world states
+1.344000 - Memory access at key __world states
+1.969000 - ****** Starting Eval Phase ******
+
+1.969000 - Memory access at key __world states
+1.969000 - Memory access at key Last Scored Goal
+2.562000 - ****** Starting Intend Phase ******
+
+2.562000 - Memory access at key __goals
+2.562000 - Memory access at key __current goals
+4.672000 - ****** Starting Plan Phase ******
+
+4.672000 - Memory access at key __world states
+4.672000 - Memory access at key __current goals
+4.687000 - Memory access at key __goals
+4.687000 - Memory access at key __PlanningCount
+4.687000 - Memory access at key __PlanningCount
+4.687000 - Memory access at key __goals
+5.031000 - ****** Starting Act Phase ******
+
+5.031000 - Memory access at key __world states
+5.031000 - Memory access at key __current goals
+5.031000 - Memory access at key __goals
+5.031000 - Memory access at key __actions
+5.047000 - Memory access at key __actions
+5.359000 - Starting cycle 1
+
+5.359000 - ****** Starting Simulate Phase ******
+
+5.359000 - Memory access at key Score
+5.359000 - Memory access at key __actions
+5.750000 - ****** Starting Perceive Phase ******
+
+5.750000 - Memory access at key __world states
+5.750000 - Memory access at key __world states
+6.141000 - ****** Starting Interpret Phase ******
+
+6.141000 - Memory access at key __world states
+6.156000 - Memory access at key A-Distance memory
+6.156000 - Memory access at key A-Distance memory
+6.156000 - Memory access at key anomaly state
+6.156000 - Memory access at key A-Distance memory
+6.156000 - Memory access at key A-Distance memory
+6.156000 - Memory access at key A-Distance memory
+6.172000 - Memory access at key __goals
+6.172000 - Memory access at key __world states
+6.172000 - Memory access at key __world states
+6.172000 - Memory access at key __world states
+6.500000 - ****** Starting Eval Phase ******
+
+6.500000 - Memory access at key __world states
+6.500000 - Memory access at key __current goals
+6.515000 - Memory access at key Last Scored Goal
+6.515000 - Memory access at key __current goals
+6.515000 - Memory access at key __current goals
+7.765000 - ****** Starting Intend Phase ******
+
+7.765000 - Memory access at key __goals
+7.765000 - Memory access at key __current goals
+7.765000 - Memory access at key __current goals
+8.109000 - ****** Starting Plan Phase ******
+
+8.109000 - Memory access at key __world states
+8.109000 - Memory access at key __current goals
+8.109000 - Memory access at key __goals
+8.391000 - ****** Starting Act Phase ******
+
+8.391000 - Memory access at key __world states
+8.391000 - Memory access at key __current goals
+8.391000 - Memory access at key __goals
+8.406000 - Memory access at key __actions
+8.406000 - Memory access at key __actions
+8.641000 - Starting cycle 2
+
+8.641000 - ****** Starting Simulate Phase ******
+
+8.641000 - Memory access at key Score
+8.641000 - Memory access at key __actions
+9.018000 - ****** Starting Perceive Phase ******
+
+9.018000 - Memory access at key __world states
+9.018000 - Memory access at key __world states
+9.346000 - ****** Starting Interpret Phase ******
+
+9.346000 - Memory access at key __world states
+9.362000 - Memory access at key A-Distance memory
+9.362000 - Memory access at key A-Distance memory
+9.362000 - Memory access at key anomaly state
+9.362000 - Memory access at key A-Distance memory
+9.362000 - Memory access at key A-Distance memory
+9.362000 - Memory access at key A-Distance memory
+9.362000 - Memory access at key __goals
+9.378000 - Memory access at key __world states
+9.378000 - Memory access at key __world states
+9.378000 - Memory access at key __world states
+9.674000 - ****** Starting Eval Phase ******
+
+9.674000 - Memory access at key __world states
+9.674000 - Memory access at key __current goals
+9.674000 - Memory access at key Last Scored Goal
+9.674000 - Memory access at key __current goals
+9.674000 - Memory access at key __current goals
+10.034000 - ****** Starting Intend Phase ******
+
+10.034000 - Memory access at key __goals
+10.034000 - Memory access at key __current goals
+10.034000 - Memory access at key __current goals
+10.315000 - ****** Starting Plan Phase ******
+
+10.315000 - Memory access at key __world states
+10.315000 - Memory access at key __current goals
+10.331000 - Memory access at key __goals
+10.643000 - ****** Starting Act Phase ******
+
+10.643000 - Memory access at key __world states
+10.643000 - Memory access at key __current goals
+10.643000 - Memory access at key __goals
+10.659000 - Memory access at key __actions
+10.659000 - Memory access at key __actions
+11.049000 - Starting cycle 3
+
+11.049000 - ****** Starting Simulate Phase ******
+
+11.049000 - Memory access at key Score
+11.049000 - Memory access at key __actions
+11.393000 - ****** Starting Perceive Phase ******
+
+11.409000 - Memory access at key __world states
+11.409000 - Memory access at key __world states
+11.706000 - ****** Starting Interpret Phase ******
+
+11.706000 - Memory access at key __world states
+11.706000 - Memory access at key A-Distance memory
+11.706000 - Memory access at key A-Distance memory
+11.706000 - Memory access at key anomaly state
+11.706000 - Memory access at key A-Distance memory
+11.706000 - Memory access at key A-Distance memory
+11.706000 - Memory access at key A-Distance memory
+11.721000 - Memory access at key __goals
+11.721000 - Memory access at key __world states
+11.721000 - Memory access at key __world states
+11.721000 - Memory access at key __world states
+12.003000 - ****** Starting Eval Phase ******
+
+12.003000 - Memory access at key __world states
+12.003000 - Memory access at key __current goals
+12.018000 - Memory access at key Last Scored Goal
+12.018000 - Memory access at key __current goals
+12.018000 - Memory access at key __current goals
+12.317000 - ****** Starting Intend Phase ******
+
+12.317000 - Memory access at key __goals
+12.317000 - Memory access at key __current goals
+12.317000 - Memory access at key __current goals
+12.645000 - ****** Starting Plan Phase ******
+
+12.645000 - Memory access at key __world states
+12.645000 - Memory access at key __current goals
+12.645000 - Memory access at key __goals
+12.973000 - ****** Starting Act Phase ******
+
+12.973000 - Memory access at key __world states
+12.973000 - Memory access at key __current goals
+12.973000 - Memory access at key __goals
+12.989000 - Memory access at key __actions
+12.989000 - Memory access at key __actions
+13.286000 - Starting cycle 4
+
+13.301000 - ****** Starting Simulate Phase ******
+
+13.301000 - Memory access at key Score
+13.301000 - Memory access at key __actions
+13.645000 - ****** Starting Perceive Phase ******
+
+13.645000 - Memory access at key __world states
+13.645000 - Memory access at key __world states
+14.067000 - ****** Starting Interpret Phase ******
+
+14.067000 - Memory access at key __world states
+14.067000 - Memory access at key A-Distance memory
+14.067000 - Memory access at key A-Distance memory
+14.067000 - Memory access at key anomaly state
+14.067000 - Memory access at key A-Distance memory
+14.067000 - Memory access at key A-Distance memory
+14.067000 - Memory access at key A-Distance memory
+14.067000 - Memory access at key __goals
+14.098000 - Memory access at key __world states
+14.098000 - Memory access at key __world states
+14.098000 - Memory access at key __world states
+14.458000 - ****** Starting Eval Phase ******
+
+14.458000 - Memory access at key __world states
+14.458000 - Memory access at key __current goals
+14.473000 - Memory access at key __goals
+14.473000 - Memory access at key __current goals
+14.473000 - Memory access at key Last Scored Goal
+14.473000 - Memory access at key __current goals
+18.971000 - ****** Starting Intend Phase ******
+
+18.971000 - Memory access at key __goals
+19.320000 - ****** Starting Plan Phase ******
+
+19.320000 - Memory access at key __world states
+19.320000 - Memory access at key __current goals
+19.684000 - ****** Starting Act Phase ******
+
+19.684000 - Memory access at key __world states
+19.684000 - Memory access at key __current goals
+19.684000 - Memory access at key __goals
+19.684000 - Memory access at key __actions
+20.012000 - Starting cycle 5
+
+20.028000 - ****** Starting Simulate Phase ******
+
+20.028000 - Memory access at key Score
+20.028000 - Memory access at key __actions
+20.392000 - ****** Starting Perceive Phase ******
+
+20.392000 - Memory access at key __world states
+20.392000 - Memory access at key __world states
+20.751000 - ****** Starting Interpret Phase ******
+
+20.751000 - Memory access at key __world states
+20.767000 - Memory access at key A-Distance memory
+20.767000 - Memory access at key A-Distance memory
+20.767000 - Memory access at key anomaly state
+20.767000 - Memory access at key A-Distance memory
+20.767000 - Memory access at key A-Distance memory
+20.767000 - Memory access at key A-Distance memory
+20.767000 - Memory access at key __goals
+20.767000 - Memory access at key __world states
+20.767000 - Memory access at key __goals
+20.767000 - Memory access at key __world states
+20.767000 - Memory access at key __world states
+20.767000 - Memory access at key __world states
+21.095000 - ****** Starting Eval Phase ******
+
+21.095000 - Memory access at key __world states
+21.095000 - Memory access at key __current goals
+21.095000 - Memory access at key Last Scored Goal
+21.095000 - Memory access at key __current goals
+22.298000 - ****** Starting Intend Phase ******
+
+22.298000 - Memory access at key __goals
+22.298000 - Memory access at key __current goals
+22.298000 - Memory access at key __current goals
+23.517000 - ****** Starting Plan Phase ******
+
+23.517000 - Memory access at key __world states
+23.517000 - Memory access at key __current goals
+23.532000 - Memory access at key __goals
+23.532000 - Memory access at key __PlanningCount
+23.532000 - Memory access at key __PlanningCount
+23.532000 - Memory access at key __goals
+23.829000 - ****** Starting Act Phase ******
+
+23.829000 - Memory access at key __world states
+23.829000 - Memory access at key __current goals
+23.829000 - Memory access at key __goals
+23.829000 - Memory access at key __actions
+23.829000 - Memory access at key __actions
+24.564000 - Starting cycle 6
+
+24.564000 - ****** Starting Simulate Phase ******
+
+24.564000 - Memory access at key Score
+24.564000 - Memory access at key __actions
+24.923000 - ****** Starting Perceive Phase ******
+
+24.923000 - Memory access at key __world states
+24.923000 - Memory access at key __world states
+25.220000 - ****** Starting Interpret Phase ******
+
+25.220000 - Memory access at key __world states
+25.235000 - Memory access at key A-Distance memory
+25.235000 - Memory access at key A-Distance memory
+25.235000 - Memory access at key anomaly state
+25.235000 - Memory access at key A-Distance memory
+25.235000 - Memory access at key A-Distance memory
+25.235000 - Memory access at key A-Distance memory
+25.235000 - Memory access at key __goals
+25.235000 - Memory access at key __world states
+25.251000 - Memory access at key __world states
+25.251000 - Memory access at key __world states
+25.517000 - ****** Starting Eval Phase ******
+
+25.517000 - Memory access at key __world states
+25.517000 - Memory access at key __current goals
+25.533000 - Memory access at key Last Scored Goal
+25.533000 - Memory access at key __current goals
+25.533000 - Memory access at key __current goals
+26.970000 - ****** Starting Intend Phase ******
+
+26.970000 - Memory access at key __goals
+26.970000 - Memory access at key __current goals
+26.970000 - Memory access at key __current goals
+27.408000 - ****** Starting Plan Phase ******
+
+27.408000 - Memory access at key __world states
+27.408000 - Memory access at key __current goals
+27.408000 - Memory access at key __goals
+27.814000 - ****** Starting Act Phase ******
+
+27.814000 - Memory access at key __world states
+27.814000 - Memory access at key __current goals
+27.814000 - Memory access at key __goals
+27.830000 - Memory access at key __actions
+27.830000 - Memory access at key __actions
+28.142000 - Starting cycle 7
+
+28.142000 - ****** Starting Simulate Phase ******
+
+28.142000 - Memory access at key Score
+28.142000 - Memory access at key __actions
+28.553000 - ****** Starting Perceive Phase ******
+
+28.553000 - Memory access at key __world states
+28.553000 - Memory access at key __world states
+28.977000 - ****** Starting Interpret Phase ******
+
+28.977000 - Memory access at key __world states
+28.977000 - Memory access at key A-Distance memory
+28.977000 - Memory access at key A-Distance memory
+28.977000 - Memory access at key anomaly state
+28.977000 - Memory access at key A-Distance memory
+28.977000 - Memory access at key A-Distance memory
+28.992000 - Memory access at key A-Distance memory
+28.992000 - Memory access at key __goals
+28.992000 - Memory access at key __world states
+28.992000 - Memory access at key __world states
+28.992000 - Memory access at key __world states
+29.341000 - ****** Starting Eval Phase ******
+
+29.341000 - Memory access at key __world states
+29.341000 - Memory access at key __current goals
+29.356000 - Memory access at key __goals
+29.356000 - Memory access at key __current goals
+29.356000 - Memory access at key Last Scored Goal
+29.356000 - Memory access at key __current goals
+35.437000 - ****** Starting Intend Phase ******
+
+35.437000 - Memory access at key __goals
+35.828000 - ****** Starting Plan Phase ******
+
+35.828000 - Memory access at key __world states
+35.828000 - Memory access at key __current goals
+36.165000 - ****** Starting Act Phase ******
+
+36.165000 - Memory access at key __world states
+36.165000 - Memory access at key __current goals
+36.165000 - Memory access at key __goals
+36.181000 - Memory access at key __actions
+36.493000 - Starting cycle 8
+
+36.493000 - ****** Starting Simulate Phase ******
+
+36.493000 - Memory access at key Score
+36.493000 - Memory access at key __actions
+36.839000 - ****** Starting Perceive Phase ******
+
+36.839000 - Memory access at key __world states
+36.839000 - Memory access at key __world states
+37.230000 - ****** Starting Interpret Phase ******
+
+37.230000 - Memory access at key __world states
+37.246000 - Memory access at key A-Distance memory
+37.246000 - Memory access at key A-Distance memory
+37.246000 - Memory access at key anomaly state
+37.246000 - Memory access at key A-Distance memory
+37.246000 - Memory access at key A-Distance memory
+37.246000 - Memory access at key A-Distance memory
+37.246000 - Memory access at key __goals
+37.246000 - Memory access at key __world states
+37.246000 - Memory access at key __goals
+37.246000 - Memory access at key __world states
+37.261000 - Memory access at key __world states
+37.261000 - Memory access at key __world states
+38.355000 - ****** Starting Eval Phase ******
+
+38.355000 - Memory access at key __world states
+38.355000 - Memory access at key __current goals
+38.371000 - Memory access at key Last Scored Goal
+38.371000 - Memory access at key __current goals
+39.167000 - ****** Starting Intend Phase ******
+
+39.167000 - Memory access at key __goals
+39.167000 - Memory access at key __current goals
+39.167000 - Memory access at key __current goals

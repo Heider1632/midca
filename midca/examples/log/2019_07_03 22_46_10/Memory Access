@@ -1,0 +1,6 @@
+ - Memory access at key __goals
+.016000 - Memory access at key A-Distance memory
+.031000 - Memory access at key Last Scored Goal
+.031000 - Memory access at key Score
+.047000 - Memory access at key __PlanningCount
+.047000 - Memory access at key __goals
