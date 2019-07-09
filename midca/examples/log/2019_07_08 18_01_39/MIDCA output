@@ -1,0 +1,90 @@
+ - Goal Graph initialized.
+
+ - [cognitive] Initializing Simulate module 1 FireReset...done.
+
+ - [cognitive] Initializing Simulate module 2 MidcaActionSimulator...done.
+
+ - [cognitive] Initializing Simulate module 3 ArsonSimulator...done.
+
+ - [cognitive] Initializing Simulate module 4 ASCIIWorldViewer...done.
+
+ - [cognitive] Initializing Perceive module 1 PerfectObserver...done.
+
+.015000 - [cognitive] Initializing Interpret module 1 ADistanceAnomalyNoter...done.
+
+.015000 - [cognitive] Initializing Interpret module 2 TFStack...done.
+
+.015000 - [cognitive] Initializing Interpret module 3 TFFire...done.
+
+.015000 - [cognitive] Initializing Interpret module 4 ReactiveApprehend...done.
+
+.015000 - [cognitive] Initializing Eval module 1 SimpleEval...done.
+
+.015000 - [cognitive] Initializing Eval module 2 Scorer...done.
+
+.015000 - [cognitive] Initializing Intend module 1 SimpleIntend...done.
+
+.015000 - [cognitive] Initializing Plan module 1 PyHopPlanner...done.
+
+.015000 - [cognitive] Initializing Act module 1 SimpleAct...done.
+
+.031000 - 
+MIDCA is starting. Please enter commands, or '?' + enter for help. Pressing enter with no input will advance the simulation by one phase.
+
+.547000 - Starting cycle 0
+
+.547000 - ****** Starting Simulate Phase ******
+
+.547000 - Simulator: no actions selected yet by MIDCA.
+
+.547000 -           / \                
+         /   \               
+        /  D_ \              
+        -------              
+       |  B_  |              
+        -------              
+        -------        -------
+       |  A_  |       |  C_  |
+        -------        -------
+------------------------------------------
+
+.859000 - ****** Starting Perceive Phase ******
+
+.859000 - World observed.
+
+1.125000 - ****** Starting Interpret Phase ******
+
+1.140000 - No anomaly detected.
+
+1.140000 - TF-Tree goal generated: Goal(C_, B_, predicate: on)
+
+1.500000 - ****** Starting Eval Phase ******
+
+1.500000 - No current goals. Skipping eval
+
+1.906000 - ****** Starting Intend Phase ******
+
+1.937000 - Selecting goal(s): Goal(C_, B_, predicate: on)
+
+2.453000 - ****** Starting Plan Phase ******
+
+2.468000 - Planning...
+
+2.468000 - hand
+
+2.468000 - True
+
+2.468000 - Planning complete.
+
+2.468000 - Plan: 
+
+2.468000 -   unstack(D_, B_)
+
+2.468000 -   putdown(D_)
+
+2.468000 -   pickup(C_)
+
+2.468000 -   stack(C_, B_)
+
+1:03.939000 - MIDCA is quitting.
+

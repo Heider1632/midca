@@ -1,0 +1,68 @@
+ - Goal Graph initialized.
+
+ - [cognitive] Initializing Simulate module 1 FireReset...done.
+
+ - [cognitive] Initializing Simulate module 2 MidcaActionSimulator...done.
+
+ - [cognitive] Initializing Simulate module 3 ArsonSimulator...done.
+
+ - [cognitive] Initializing Simulate module 4 ASCIIWorldViewer...done.
+
+ - [cognitive] Initializing Perceive module 1 PerfectObserver...done.
+
+ - [cognitive] Initializing Interpret module 1 ADistanceAnomalyNoter...done.
+
+ - [cognitive] Initializing Interpret module 2 TFStack...done.
+
+ - [cognitive] Initializing Interpret module 3 TFFire...done.
+
+ - [cognitive] Initializing Interpret module 4 ReactiveApprehend...done.
+
+ - [cognitive] Initializing Eval module 1 SimpleEval...done.
+
+ - [cognitive] Initializing Eval module 2 Scorer...done.
+
+ - [cognitive] Initializing Intend module 1 SimpleIntend...done.
+
+ - [cognitive] Initializing Plan module 1 PyHopPlanner...done.
+
+ - [cognitive] Initializing Act module 1 SimpleAct...done.
+
+.015000 - 
+MIDCA is starting. Please enter commands, or '?' + enter for help. Pressing enter with no input will advance the simulation by one phase.
+
+.437000 - Starting cycle 0
+
+.437000 - ****** Starting Simulate Phase ******
+
+.437000 - Simulator: no actions selected yet by MIDCA.
+
+.453000 -           / \                
+         /   \               
+        /  D_ \              
+        -------              
+       |  B_  |              
+        -------              
+        -------        -------
+       |  A_  |       |  C_  |
+        -------        -------
+------------------------------------------
+
+.864000 - ****** Starting Perceive Phase ******
+
+.879000 - World observed.
+
+1.192000 - ****** Starting Interpret Phase ******
+
+1.207000 - No anomaly detected.
+
+1.223000 - TF-Tree goal generated: Goal(C_, B_, predicate: on)
+
+1.598000 - ****** Starting Eval Phase ******
+
+1.598000 - No current goals. Skipping eval
+
+1.973000 - ****** Starting Intend Phase ******
+
+1.973000 - Selecting goal(s): Goal(C_, B_, predicate: on)
+

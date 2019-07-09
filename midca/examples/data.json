@@ -1,84 +1,76 @@
 {
-    "07/05/19 16:25:12": {
+    "07/08/19 22:02:10": {
         "goaltime": [
             {
-                "endtime": 1562361930.972, 
+                "endtime": 1562641385.496, 
                 "name": "Goal(C_, B_, predicate: on)", 
                 "state": "achieved", 
-                "duration": 15.258999824523926, 
-                "startime": 1562361915.713, 
+                "duration": 52.39900016784668, 
+                "startime": 1562641333.097, 
                 "id": 0
             }, 
             {
-                "endtime": 1562361945.061, 
+                "endtime": 1562641345.132, 
                 "name": "Goal(D_, C_, predicate: on)", 
-                "duration": 9.301000118255615, 
                 "state": "achieved", 
-                "pausetime": 0, 
-                "startime": 1562361935.76, 
+                "duration": 3.2160000801086426, 
+                "startime": 1562641341.916, 
                 "id": 1
             }, 
             {
-                "endtime": "0", 
+                "endtime": 1562641371.987, 
                 "name": "Goal(D_, B_, predicate: on)", 
-                "duration": 0, 
-                "state": "paused", 
-                "pausetime": 1562361966.263, 
-                "startime": 1562361949.602, 
+                "state": "achieved", 
+                "duration": 24.973000049591064, 
+                "startime": 1562641347.014, 
                 "id": 2
             }, 
             {
-                "endtime": 1562361989.125, 
+                "endtime": 1562641360.543, 
                 "name": "Goal(Gui Montag, negate: True, predicate: free)", 
-                "duration": 22.861999988555908, 
                 "state": "achieved", 
-                "pausetime": 0, 
-                "startime": 1562361966.263, 
+                "duration": 8.204999923706055, 
+                "startime": 1562641352.338, 
                 "id": 3
             }, 
             {
-                "endtime": 1562361994.92, 
-                "name": "Goal(B_, negate: True, predicate: onfire)", 
-                "duration": 4.706000089645386, 
+                "endtime": 1562641362.176, 
+                "name": "Goal(C_, negate: True, predicate: onfire)", 
                 "state": "achieved", 
-                "pausetime": 0, 
-                "startime": 1562361990.214, 
+                "duration": 1.386000156402588, 
+                "startime": 1562641360.79, 
                 "id": 4
             }, 
             {
-                "endtime": 1562361999.645, 
+                "endtime": 1562641363.738, 
                 "name": "Goal(A_, negate: True, predicate: onfire)", 
-                "duration": 4.003000020980835, 
                 "state": "achieved", 
-                "pausetime": 0, 
-                "startime": 1562361995.642, 
+                "duration": 1.3479998111724854, 
+                "startime": 1562641362.39, 
                 "id": 5
             }, 
             {
-                "endtime": 1562362004.048, 
-                "name": "Goal(C_, negate: True, predicate: onfire)", 
-                "duration": 3.9280002117156982, 
+                "endtime": 1562641365.293, 
+                "name": "Goal(B_, negate: True, predicate: onfire)", 
                 "state": "achieved", 
-                "pausetime": 0, 
-                "startime": 1562362000.12, 
+                "duration": 1.3350000381469727, 
+                "startime": 1562641363.958, 
                 "id": 6
             }, 
             {
-                "endtime": 1562362009.47, 
+                "endtime": 1562641371.987, 
                 "name": "Goal(D_, negate: True, predicate: onfire)", 
-                "duration": 4.499000072479248, 
                 "state": "achieved", 
-                "pausetime": 0, 
-                "startime": 1562362004.971, 
+                "duration": 6.480999946594238, 
+                "startime": 1562641365.506, 
                 "id": 7
             }, 
             {
-                "endtime": "0", 
-                "name": "Goal(D_, B_, predicate: on)", 
-                "duration": 0, 
-                "state": "current", 
-                "pausetime": 0, 
-                "startime": 1562362010.399, 
+                "endtime": 1562641385.496, 
+                "name": "Goal(C_, B_, predicate: on)", 
+                "state": "achieved", 
+                "duration": 11.621000051498413, 
+                "startime": 1562641373.875, 
                 "id": 8
             }
         ]

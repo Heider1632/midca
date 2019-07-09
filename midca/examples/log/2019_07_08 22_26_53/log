@@ -1,0 +1,56 @@
+.002000 - Memory access at key __goals
+.004000 - Goal Graph initialized.
+
+.018000 - [cognitive] Initializing Simulate module 1 FireReset...done.
+
+.020000 - [cognitive] Initializing Simulate module 2 MidcaActionSimulator...done.
+
+.020000 - [cognitive] Initializing Simulate module 3 ArsonSimulator...done.
+
+.021000 - [cognitive] Initializing Simulate module 4 ASCIIWorldViewer...done.
+
+.021000 - [cognitive] Initializing Perceive module 1 PerfectObserver...done.
+
+.026000 - Memory access at key A-Distance memory
+.026000 - [cognitive] Initializing Interpret module 1 ADistanceAnomalyNoter...done.
+
+.027000 - [cognitive] Initializing Interpret module 2 TFStack...done.
+
+.030000 - [cognitive] Initializing Interpret module 3 TFFire...done.
+
+.031000 - [cognitive] Initializing Interpret module 4 ReactiveApprehend...done.
+
+.031000 - [cognitive] Initializing Eval module 1 SimpleEval...done.
+
+.031000 - Memory access at key Last Scored Goal
+.031000 - Memory access at key Score
+.032000 - [cognitive] Initializing Eval module 2 Scorer...done.
+
+.032000 - [cognitive] Initializing Intend module 1 SimpleIntend...done.
+
+.032000 - Memory access at key __PlanningCount
+.033000 - [cognitive] Initializing Plan module 1 PyHopPlanner...done.
+
+.033000 - [cognitive] Initializing Act module 1 SimpleAct...done.
+
+.033000 - Memory access at key __goals
+.034000 - 
+MIDCA is starting. Please enter commands, or '?' + enter for help. Pressing enter with no input will advance the simulation by one phase.
+
+3.137000 - interface: 
+ enter/return -> input commands. Empty command goes to next cycle 
+ q -> quit 
+ skip n -> skips n cycles 
+ show -> print world representation 
+ change -> modify or clear world state 
+ log -> log some text 
+ drawgoalgraph -> show the current goal graph 
+ memorydump -> show the variables in MIDCA's memory 
+ printtrace -> show the entire trace up until the MIDCA's last phase 
+ toggle meta verbose -> turn off/on meta output 
+ goaltime -> get current goaltime 
+ goaltimepdf -> save in txt goaltime current state 
+ ? or help -> show this list of commands 
+
+1:31.807000 - MIDCA is quitting.
+
