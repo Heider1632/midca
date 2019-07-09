@@ -1,7 +1,8 @@
 from __future__ import print_function
 import time as ctime 
 import json
-from indexed import IndexedOrderedDict
+import shlex, subprocess 
+import os
 from collections import OrderedDict
 
 class Goaltime:
@@ -12,8 +13,7 @@ class Goaltime:
 		self.id = 0
 		self.data[str(self.time)] = {}
 		self.data[str(self.time)]['goaltime'] = []
-		self.myMidca = None # pointer to MIDCA objects
-
+		self.myMidca = None
 
 	def StartIntend(self, goal, startime, endtime, state):
 
@@ -33,8 +33,6 @@ class Goaltime:
 			lastgoal = self.data[str(self.time)]['goaltime'][-1]
 
 			if(lastgoal['state'] == 'current'):
-
-				#change state for pause
 				lastgoal['state'] = 'paused'
 				self.id = lastgoal['id']
 
@@ -44,22 +42,20 @@ class Goaltime:
 				'startime' : startime, 
 				'endtime' : endtime,
 				'state' : state,
-				'pausetime': 0,
 				'duration': 0,
 			}])
 
-			for x in range(0, len(self.data[str(self.time)]['goaltime'])):
-				if self.data[str(self.time)]['goaltime'][x]['name'] == goal:
-					print(self.data[str(self.time)]['goaltime'][x])
+		depured_goaltime = list()
+		for x in range(0, len(self.data[str(self.time)]['goaltime'])):
+			if  x > 1 and self.data[str(self.time)]['goaltime'][x]['name'] == goal:
+				depured_goaltime.extend([self.data[str(self.time)]['goaltime'][x]])
+				if(len(depured_goaltime) >= 2):
+					indice = depured_goaltime[-1]['id']
+					self.data[str(self.time)]['goaltime'].pop(indice)
+
 
 		with open('data.json', 'w') as file:
-			data = json.load(file)
-
-			if(len(data) > 0)
-				data.append(self.data)
-				json.dump(data, file, indent=4)
-			else:
-				json.dump(self.data, file, indent=4)
+			json.dump(self.data, file, indent=4)
 			
 
 	def StartEval(self, goal, startime, endtime, state):
@@ -68,9 +64,6 @@ class Goaltime:
 
 		for x in range(0, len(self.data[str(self.time)]['goaltime'])):
 			if self.data[str(self.time)]['goaltime'][x]['id'] == id or self.data[str(self.time)]['goaltime'][x]['name'] == goal:
-				if(self.data[str(self.time)]['goaltime'][x -1 ]['state'] == 'paused'):
-					goal_paused = self.data[str(self.time)]['goaltime'][x - 1]
-					goal_paused['pausetime'] = self.data[str(self.time)]['goaltime'][x]['startime']
 				self.data[str(self.time)]['goaltime'][x]['endtime'] = endtime
 				self.data[str(self.time)]['goaltime'][x]['state'] = state
 				self.data[str(self.time)]['goaltime'][x]['duration'] = endtime - self.data[str(self.time)]['goaltime'][x]['startime']
@@ -91,3 +84,13 @@ class Goaltime:
 				print('Goaltime duration', goaltime['duration'])
 				print('Goaltime state', goaltime['state'])
 				print('')
+
+	def writeGoaltimePdf(self, filename="goaltime.txt"):
+
+		file = open(filename, "w")
+
+		for x in self.data[str(self.time)]['goaltime']:
+			file.write(str(x))
+
+		file.close()
+

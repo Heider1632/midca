@@ -191,7 +191,10 @@ class CogTrace:
         f = open(dotfilename, 'w')
         f. write(dotfilestr)
         f.close()
+        # problemas ellos estan generando el pdf a fuerzas a partir del dot
+        # pense que solo lo llamaban para leer los datos y guardalos en string 
         print("Wrote dot file to " + dotfilename)
+        # esto es un comando que convierte el dot en pdf 
         genPDFCommand = "dot -Tpdf "+ dotfilename + " -o " + pdf_filename
         print("genPDFCommand = " + genPDFCommand)
         dot_output = subprocess.check_output(shlex.split(genPDFCommand))

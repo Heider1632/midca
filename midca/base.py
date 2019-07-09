@@ -506,8 +506,9 @@ class PhaseManager:
                 if val == "q":
                     break
                 elif val == "goaltime":
-                    # call the goaltime function that return the infomation
                     self.goaltime.getGoalTimes()
+                elif val == "goaltimepdf":
+                    self.goaltime.writeGoaltimePdf()
                 elif val == "skip":
                     if self.metaEnabled:
                         self.one_cycle_with_meta_intrlvd(verbose=self.meta_verbose,pause=0)
@@ -630,7 +631,7 @@ class PhaseManager:
                             except Exception as e:
                                 print(e)
                 elif val == "?" or val == "help":
-                    print("interface: \n enter/return -> input commands. Empty command goes to next cycle \n q -> quit \n skip n -> skips n cycles \n show -> print world representation \n change -> modify or clear world state \n log -> log some text \n ? or help -> show this list of commands \n")
+                    print("interface: \n enter/return -> input commands. Empty command goes to next cycle \n q -> quit \n skip n -> skips n cycles \n show -> print world representation \n change -> modify or clear world state \n log -> log some text \n drawgoalgraph -> show the current goal graph \n memorydump -> show the variables in MIDCA's memory \n printtrace -> show the entire trace up until the MIDCA's last phase \n toggle meta verbose -> turn off/on meta output \n goaltime -> get current goaltime \n goaltimepdf -> save in txt goaltime current state \n ? or help -> show this list of commands \n")
                 elif val:
                     print("command not understood")
                 else:

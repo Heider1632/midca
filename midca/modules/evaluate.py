@@ -17,7 +17,6 @@ class EvalPointingFromFeedback(base.BaseModule):
             if verbose >= 2:
                 print "No current goals. Skipping eval"
         else:
-            # this method return the goalgraph but return like object and i have seen thtat information return 
             goalGraph = self.mem.get(self.mem.GOAL_GRAPH)
             plan = goalGraph.getMatchingPlan(goals)
             if not plan:
@@ -37,8 +36,6 @@ class EvalPointingFromFeedback(base.BaseModule):
                     if verbose >= 1:
                         print "Plan:", plan, "complete. Removing its goals"
                     for goal in plan.goals:
-                        # goaltime.StartEval(str(goal), "evaluate", 0, ctime.time(), "achieved")
-                        # here evaluate decide that goal was reach so before the goaltime must be called
                         goalGraph.remove(goal)
                     numPlans = len(goalGraph.plans)
                     goalGraph.removeOldPlans()
@@ -87,8 +84,6 @@ class SimpleEval(base.BaseModule):
                 print "All current goals achieved. Removing them from goal graph"
             goalGraph = self.mem.get(self.mem.GOAL_GRAPH)
             for goal in goals:
-                # evaluate profe voy a almorzar le parece si lo hablamos despues tengo que pensar en lo que se debe hacer para que actualice los stado ok no te preocupes
-                #goal time is called to recive the information the current goal
                 goaltime.StartEval(str(goal), "0", ctime.time() , "achieved")
                 goalGraph.remove(goal)
                 if trace: trace.add_data("REMOVED GOAL", goal)

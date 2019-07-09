@@ -51,12 +51,9 @@ class SimpleIntend(base.BaseModule):
         else:
             if verbose >= 2:
                 print "Selecting goal(s):",
-                
-                # en intend cuando termina de seleccionar el goal termina la funcion intend y pass a la siguiente...
+
                 for goal in goals:
 					print goal,
-					# este recive los dos goals y los inserta 
-                    # instance the class in the contructor and pass the parameter to call the function
 					goaltime.StartIntend(str(goal), ctime.time(), "0" , "current")
                 print
 
